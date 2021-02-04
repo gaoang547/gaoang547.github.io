@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>张满月的小酒馆</title>
+  
+  
+  <link href="https://www.ranas.cn/atom.xml" rel="self"/>
+  
+  <link href="https://www.ranas.cn/"/>
+  <updated>2021-02-03T16:22:01.260Z</updated>
+  <id>https://www.ranas.cn/</id>
+  
+  <author>
+    <name>High</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.ranas.cn/hello-world.html"/>
+    <id>https://www.ranas.cn/hello-world.html</id>
+    <published>2021-02-04T04:23:55.606Z</published>
+    <updated>2021-02-03T16:22:01.260Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎使用hexo-ran整合包，能够看到这篇文章说明您成功的部署了本博客</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;欢迎使用hexo-ran整合包，能够看到这篇文章说明您成功的部署了本博客&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo备份步骤</title>
+    <link href="https://www.ranas.cn/hexo%E5%A4%87%E4%BB%BD%E6%AD%A5%E9%AA%A4.html"/>
+    <id>https://www.ranas.cn/hexo%E5%A4%87%E4%BB%BD%E6%AD%A5%E9%AA%A4.html</id>
+    <published>2021-02-03T16:53:35.000Z</published>
+    <updated>2021-02-03T17:00:19.815Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文首次发布于我的博客：<a href="https://www.yshawlon.cn/">Yshawlon</a></p><p>可能有的小伙伴认为备份不就创建一个仓库多简单；或者说我将Hexo博客源文件拷贝到U盘不就可以了吗，可是你写一篇文章或者更新一次配置就要拷贝一次不是很麻烦吗？</p><p><strong>备份博客源文件的好处：</strong></p><ul><li>如果电脑突然罢工，我们的源文件也不会丢失。</li><li>有时候不方便需要更换电脑写作，我们直接clone仓库就可以了。</li></ul><p><strong>开始我也认为创建一个仓库就可以，可是clone下来的文件却是这样？</strong></p><p><img src= "/img/loading.gif" data-lazy-src="https://pic4.zhimg.com/v2-0e819cbe7560e6d77f4fcf81c4908553_r.jpg" alt="img"></p><blockquote><p>原因： Hexo 博客是静态托管的，仓库只有生成的静态网页文件，并没有Hexo的源文件。</p></blockquote><h2 id="备份步骤"><a href="#备份步骤" class="headerlink" title="备份步骤"></a>备份步骤</h2><ul><li><strong>创建一个仓库用来存放备份文件，名字随便，勾选README。</strong></li></ul><p>-———</p><ul><li><strong>复制仓库地址，运行Git将仓库clone到本地。</strong></li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:MUYIio/hexo-themes-matery.git</span><br><span class="line">//git@github.com:MUYIio/hexo-themes-matery.git 改为你自己的</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://pic4.zhimg.com/v2-e009aba43c4b92e7ac8ad0ef0950279b_r.jpg" alt="img"></p><p><img src= "/img/loading.gif" data-lazy-src="https://pic4.zhimg.com/v2-7f025760e140287666bf65d16f4a19ef_r.jpg" alt="img"></p><p>-———</p><ul><li><strong>将要备份的文件放到我们刚才clone的文件夹里面。</strong></li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://pic2.zhimg.com/v2-538a4a45d83dd32c641b70d6b56f1281_r.jpg" alt="img"></p><p>-———</p><ul><li><strong>在clone的文件夹下运行Git（免得切换cd XXX），依次输入以下命令就可以了。</strong></li></ul><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit  -m  &quot;backup&quot;  （注：“backup”里面换成你需要，如“first commit”）</span><br><span class="line">git push -u origin master   （注：此操作目的是把本地仓库push到github上面，如果没有使用密钥此步骤需要你输入帐号和密码）</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://pic4.zhimg.com/v2-d90349e58807ac3868d3e50fc41d3c43_r.jpg" alt="img"></p><p>-———</p><ul><li><strong>最后打开我们的仓库就可以看到已经上传了。</strong></li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://pic3.zhimg.com/v2-9fc7a717e22263404d2797000aca5f02_r.jpg" alt="img"></p><p>以后更新备份使用：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit  -m  &quot;backup&quot;</span><br><span class="line">git push origin master </span><br></pre></td></tr></table></figure><p>搬运自<a href="https://zhuanlan.zhihu.com/p/127027266">https://zhuanlan.zhihu.com/p/127027266</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本文首次发布于我的博客：&lt;a href=&quot;https://www.yshawlon.cn/&quot;&gt;Yshawlon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可能有的小伙伴认为备份不就创建一个仓库多简单；或者说我将Hexo博客源文件拷贝到U盘不就可以了吗，可是你写一篇文章或者更新一次配置就要拷贝一</summary>
+      
+    
+    
+    
+    <category term="学习过程" scheme="https://www.ranas.cn/categories/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://www.ranas.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次失眠闲聊</title>
+    <link href="https://www.ranas.cn/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%A4%B1%E7%9C%A0%E9%97%B2%E8%81%8A.html"/>
+    <id>https://www.ranas.cn/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%A4%B1%E7%9C%A0%E9%97%B2%E8%81%8A.html</id>
+    <published>2021-02-02T18:47:12.000Z</published>
+    <updated>2021-02-03T16:22:01.260Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>理发加串门，半夜时间回到家中，打开微信看看有什么未读的消息，一眼看到了傻弟弟给我打的一个语音，随手回了一句，未想他还没睡，遂，呼之。</p><h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p>吹牛逼，吹牛逼，吹牛逼，吹牛逼，吹牛逼，吹牛逼，吹牛逼……（呸，粗鄙！）</p><h1 id="所得"><a href="#所得" class="headerlink" title="所得"></a>所得</h1><p>傻弟弟是真能吹牛逼</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h1&gt;&lt;p&gt;理发加串门，半夜时间回到家中，打开微信看看有什么未读的消息，一眼看到了傻弟弟给我打的一个语音，随手回了一句，未想他还没睡，遂，呼之。&lt;/p&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="杂项" scheme="https://www.ranas.cn/tags/%E6%9D%82%E9%A1%B9/"/>
+    
+  </entry>
+  
+</feed>
