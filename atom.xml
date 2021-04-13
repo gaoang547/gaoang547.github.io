@@ -1,27 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>张满月的小酒馆</title>
+  <title>江雪⭐✨’s Blog</title>
   
   
   <link href="https://www.ranas.cn/atom.xml" rel="self"/>
   
   <link href="https://www.ranas.cn/"/>
-  <updated>2021-02-02T19:08:55.652Z</updated>
+  <updated>2021-02-03T16:22:01.260Z</updated>
   <id>https://www.ranas.cn/</id>
   
   <author>
-    <name>High</name>
+    <name>江雪⭐✨</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://www.ranas.cn/hello-world.html"/>
+    <id>https://www.ranas.cn/hello-world.html</id>
+    <published>2021-04-13T05:34:27.453Z</published>
+    <updated>2021-02-03T16:22:01.260Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎使用hexo-ran整合包，能够看到这篇文章说明您成功的部署了本博客</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;欢迎使用hexo-ran整合包，能够看到这篇文章说明您成功的部署了本博客&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何自制漫画</title>
+    <link href="https://www.ranas.cn/%E5%A6%82%E4%BD%95%E8%87%AA%E5%88%B6%E6%BC%AB%E7%94%BB.html"/>
+    <id>https://www.ranas.cn/%E5%A6%82%E4%BD%95%E8%87%AA%E5%88%B6%E6%BC%AB%E7%94%BB.html</id>
+    <published>2021-04-08T06:24:27.000Z</published>
+    <updated>2021-04-08T06:25:11.384Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>虽然现在各种视频影视作品很丰富，漫画可能没有以前流行了，但相信喜欢阅读漫画的朋友依然不少。</p><p>有时出于各种原因，对现有漫画资源不满意，或者想要将自己的照片等图片制作成漫画电子书保存……</p><p>我们可能有自制漫画的需求，本文就讲解下 Kindle 漫画制作过程，将漫画图片制作成适合各种电子设备阅读的 MOBI、EPUB 等格式漫画电子书。</p><h2 id="自制漫画教程"><a href="#自制漫画教程" class="headerlink" title="自制漫画教程"></a>自制漫画教程</h2><hr><p>首先准备好漫画源图片等素材资源，大多为压缩包或图片文件夹的形式，自行搜索下载。</p><h2 id="ChainLP-漫画制作软件"><a href="#ChainLP-漫画制作软件" class="headerlink" title="# ChainLP 漫画制作软件"></a><strong># ChainLP 漫画制作软件</strong></h2><p>ChainLP 是一款日本的漫画制作软件，支持将漫画图片导出为 MOBI、EPUB、PDF 等格式的电子书。</p><p>绿色软件，下载后解压到文件夹中，运行 ChainLP.exe，在菜单栏 Language 中改成英文显示，重启生效。</p><p><strong>官网：</strong><a href="http://no722.cocolog-nifty.com/blog/2013/02/chainlp-v040-17.html">ChainLP V0.40-17</a>（软件需要 <a href="https://dotnet.microsoft.com/">.Net 4.0</a> 支持）</p><h2 id="1-整理漫画图片"><a href="#1-整理漫画图片" class="headerlink" title="# 1. 整理漫画图片"></a><strong># 1. 整理漫画图片</strong></h2><p>确保将要使用的图片的文件名的规律性，方便导入软件后进行自动排序，如 “第1话_01.jpg”“第1话_02.jpg”。</p><p>可以使用 <a href="http://www.den4b.com/products/renamer">ReNamer</a> 进行批量重命名。</p><h2 id="2-漫画制作"><a href="#2-漫画制作" class="headerlink" title="# 2. 漫画制作"></a><strong># 2. 漫画制作</strong></h2><p><strong>以下为最简单的制作流程</strong>，结合下图查看，只需三步即可完成（步骤 1-3 ）。<strong>漫画图片为一张一页的形式</strong>，不涉及更深入的调整。</p><p><img src= "/img/loading.gif" data-lazy-src="https://pic2.zhimg.com/v2-7f131b267122fb5ed3c18ca072450725_r.jpg" alt="img"></p><p><strong>Step 1：导入文件</strong></p><p>首先选择导入形式：dir（目录）、arc（压缩包）、txt（文本），Role（旋转），然后点击 Input 导入。</p><p>默认第一张图片将作为封面显示。图片区 Fig 列打勾的为显示彩色图片。（Ctrl + A 全选 -&gt; 右键 -&gt; Color Check，可自动检测彩色图片）</p><p><strong>Step 2：适配</strong></p><p>设置分辨率和翻页方向。以 Kindle Paperwhite 为例，分辨率为 758<em>1024 或 新版 1072</em>1448，选择 LockH，锁定以 “高” 为基准缩放（其他设备自行调整）。</p><p>Direc（翻页方向）选择第二个 “Left to Right”，即点击屏幕右侧翻下一页。</p><p><strong>Step 3：导出</strong></p><p>勾选 Fixed output fold，点击右侧三个点的按钮选择导出目录。</p><p>选择导出格式，点击 Output 导出电子书，制作完成。</p><h2 id="3-使用-KindleStrip-py-精简体积（可选）"><a href="#3-使用-KindleStrip-py-精简体积（可选）" class="headerlink" title="# 3. 使用 KindleStrip.py 精简体积（可选）"></a><strong># 3. 使用 KindleStrip.py 精简体积（可选）</strong></h2><p>制作成的 MOBI 格式电子书内，可能会包含一个源文件存档，导致生成的电子书体积翻倍。</p><p>我们可以使用 KindleStrip 来删除这部分多余文件，可以缩小电子书体积一倍之多，也不影响显示效果。</p><p>地址：<a href="https://github.com/jefftriplett/kindlestrip">jefftriplett/kindlestrip</a></p><p>首先确定电脑安装有 Python 2.7，并已加入系统环境变量。</p><p>把 MOBI 原始文件移动到 KindleStrip.py 所在文件夹，并在此打开 CMD 运行：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kindlestrip_v136.py 1.mobi 2.mobi</span><br></pre></td></tr></table></figure><p>其中：<a href="http://1.mobi/">http://1.mobi</a> 是原始文件，<a href="http://2.mobi/">http://2.mobi</a> 为精简后导出的文件名</p><p>如显示“Error: File doesn’t contain the sources section.”则表示文件中不含源文件存档，不需要精简。</p><p>（按说明可以把 KindleStrip.py 放到 ChainLP 目录下，生成电子书会自动调用压缩，但我测试时总是报错无法生效，遂在这里单独使用，可以自己试一下。）</p><h2 id="ChainLP-高级选项使用教程"><a href="#ChainLP-高级选项使用教程" class="headerlink" title="ChainLP 高级选项使用教程"></a>ChainLP 高级选项使用教程</h2><hr><p>如果上面的过程无法满足自己的制作需求，或不适合自己的漫画图片情况，如一张图片包含两页漫画，可进一步调整设置。</p><p><img src= "/img/loading.gif" data-lazy-src="https://pic1.zhimg.com/80/v2-6705ce7ec6c2e479261c5cf846b6de2c_720w.jpg" alt="img"></p><h2 id="页面处理"><a href="#页面处理" class="headerlink" title="# 页面处理"></a><strong># 页面处理</strong></h2><ul><li>2in1：两张图片合成为一张</li><li>Ruler：插入进度和页码显示</li><li>Aspect：图片分页</li><li>Page Analys：图片自动角度修正和裁边</li></ul><p>如下图，一张图片包含两页漫画，我们可以调整 Aspect 将其旋转或切分。</p><ul><li>90deg / 270deg：双页旋转图片，单页正常；</li><li>half unit / Cover split：分页设置，将单张图片切分为两张，后面的 R2L 表示图片顺序 Right to Left，先右后左。</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://pic2.zhimg.com/v2-d939d68864966e37f42cd03bbe94f769_r.jpg" alt="img"></p><p>针对适合我们的阅读习惯的话，建议设置为：</p><ul><li>Direc：Left to Right</li><li>Aspect：half unit R2L</li></ul><p>但这样有点不足，就是封面可能会被从中间分开。Cover split 倒是可以保证封面在电子书中的显示效果，但需要把 Direc 改为 Right to Left，即从后往前翻页（Kindle 点屏幕左侧翻下一页）。</p><h2 id="显示效果"><a href="#显示效果" class="headerlink" title="# 显示效果"></a><strong># 显示效果</strong></h2><p>Bold、Gamma、Sharpness 和 Histgram 都是调节显示效果的，可以改善图片显示发虚模糊的情况。</p><p>其中 Sharpness 锐度调整可以改善图片发糊的情况，让看上去的细节更清晰些。</p><p><img src= "/img/loading.gif" data-lazy-src="https://pic4.zhimg.com/80/v2-a1c1137fe3f142828b0ccd908f364d33_720w.jpg" alt="img"></p><h2 id="批量处理"><a href="#批量处理" class="headerlink" title="# 批量处理"></a><strong># 批量处理</strong></h2><p>Edit -&gt; Save Profile，保存当前配置到一个 .ini 文件，打开 BatchLP.exe，选择配置文件、输出格式和输出目录。</p><p>将文件拖进窗口中，软件会自动开始批量处理。</p><p><img src= "/img/loading.gif" data-lazy-src="https://pic2.zhimg.com/v2-e48fdf35cc1b173b9519e2c509b059fd_r.jpg" alt="img"></p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>ChainLP 这款软件虽然有点老了，但是功能很强大，而且很好用，制作出的漫画电子书效果也很不错。</p><p>ChainLP 只有 Windows 版，其他平台可以选择亚马逊官方漫画制作工具 <a href="https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1001103761">Kindle Comic Creator</a>，或开源软件 <a href="https://kcc.iosphe.re/">Kindle Comic Converter</a>，支持 Win、Mac 和 Linux。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;虽然现在各种视频影视作品很丰富，漫画可能没有以前流行了，但相信喜欢阅读漫画的朋友依然不少。&lt;/p&gt;
+&lt;p&gt;有时出于各种原因，对现有漫画资源不</summary>
+      
+    
+    
+    
+    <category term="学习过程" scheme="https://www.ranas.cn/categories/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B/"/>
+    
+    
+    <category term="漫画" scheme="https://www.ranas.cn/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>轻小说网站分享</title>
+    <link href="https://www.ranas.cn/%E8%BD%BB%E5%B0%8F%E8%AF%B4%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB.html"/>
+    <id>https://www.ranas.cn/%E8%BD%BB%E5%B0%8F%E8%AF%B4%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB.html</id>
+    <published>2021-02-24T14:19:32.000Z</published>
+    <updated>2021-02-24T14:20:07.608Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="轻小说网站分享"><a href="#轻小说网站分享" class="headerlink" title="轻小说网站分享"></a>轻小说网站分享</h2><p>这次不局限于专门的轻小说网站，有些站点里的「轻小说」板块也很不错，也一起分享。</p><p>全部都是免费网站，个别需要注册账号或积分。</p><p><img src= "/img/loading.gif" data-lazy-src="https://mmbiz.qpic.cn/mmbiz_gif/wd0A9LjWKMdjZXf7MKoAwmbl3LApWBicuibibbMro3zQV9CvFPnE6A0Q8IqFZSE8ofIu4IAqgWic5J6spDB7fEW3XA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1" alt="图片"></p><h4 id="1-轻小说文库"><a href="#1-轻小说文库" class="headerlink" title="# 1. 轻小说文库"></a># 1. 轻小说文库</h4><ul><li>地址：<a href="https://www.wenku8.net/index.php">https://www.wenku8.net/index.php</a></li><li>类型：在线阅读 + TXT 下载</li></ul><p>集在线阅读和下载于一体，资源相当丰富，网站干净简洁，非常不错。</p><p>支持简体/繁体，全本/分卷的 TXT、UMB 和 JAR 电子书下载。</p><p><img src= "/img/loading.gif" data-lazy-src="https://mmbiz.qpic.cn/mmbiz_png/wd0A9LjWKMfa2wkIuPibXmjKokgeKcsO0y3LXq9QbuxlDAtk2hx2icjGw9xDlcbkfTPo4ibKNXI2xgGUelQWl7iarQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><h4 id="2-好看的轻小说-铅笔小说"><a href="#2-好看的轻小说-铅笔小说" class="headerlink" title="# 2. 好看的轻小说_铅笔小说"></a># 2. 好看的轻小说_铅笔小说</h4><ul><li>地址：<a href="https://www.x23qb.com/lightnovel/">https://www.x23qb.com/lightnovel/</a></li><li>类型：在线阅读 + TXT 下载</li></ul><p>在线阅读不错；TXT 下载需要登陆账户，下载扣积分，积分可通过每天登陆签到获取。</p><p><img src= "/img/loading.gif" data-lazy-src="https://mmbiz.qpic.cn/mmbiz_png/wd0A9LjWKMfa2wkIuPibXmjKokgeKcsO0N4rODSbibZtB88Ilxlw1Onzr78PZdXLyP2LAjiaibXicQ7ianaNP1I5vwbw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><h4 id="3-轻小说在线阅读-亲小说网"><a href="#3-轻小说在线阅读-亲小说网" class="headerlink" title="# 3. 轻小说在线阅读_亲小说网"></a># 3. 轻小说在线阅读_亲小说网</h4><ul><li>地址：<a href="http://www.qinxiaoshuo.com/">http://www.qinxiaoshuo.com/</a></li><li>类型：在线阅读</li></ul><p>在线阅读网站，分卷清晰，部分包含插图。除了界面比较简单外，还是不错的。</p><p><img src= "/img/loading.gif" data-lazy-src="https://mmbiz.qpic.cn/mmbiz_png/wd0A9LjWKMfa2wkIuPibXmjKokgeKcsO0hLRly0BYicQ8MSJ4SXNyaJtpP3AK69b1ctmInQyLNP4UwZBASVmYGwQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><h4 id="4-205-藏书馆"><a href="#4-205-藏书馆" class="headerlink" title="# 4. 205 藏书馆"></a># 4. 205 藏书馆</h4><ul><li>地址：<a href="http://205library.blogspot.com/">http://205library.blogspot.com/</a></li><li>类型：EPUB 下载（Google Drive）</li></ul><p>专门分享 EPUB 电子书的一个 Blogger，书籍为繁体版（可使用 calibre 转为简体），无需注册，直接下载。</p><p>右侧的 “书馆目录” 里按完结状态和出版社索引，数量很多，内容丰富，博主还在不断更新中。下载形式为谷歌云盘，有一定门槛。</p><h4 id="5-图书馆的无限回廊"><a href="#5-图书馆的无限回廊" class="headerlink" title="# 5. 图书馆的无限回廊"></a># 5. 图书馆的无限回廊</h4><ul><li>地址：<a href="https://epub.love/wp/">https://epub.love/wp/</a></li><li>类型：EPUB、TXT 下载</li></ul><p>非常不错的一个轻小说分享博客，博主应该也是爱好者。</p><p>大部分都是 EPUB 电子书，虽然数量不算太多，但整理得很好。</p><p><img src= "/img/loading.gif" data-lazy-src="https://mmbiz.qpic.cn/mmbiz_png/wd0A9LjWKMfa2wkIuPibXmjKokgeKcsO0Efibtgg5QU74LicTV10345rPlt4UthTfsLibtJzyKRIswNiaZicjbAEQSibQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><h4 id="6-轻小说-–-次元狗"><a href="#6-轻小说-–-次元狗" class="headerlink" title="# 6. 轻小说 – 次元狗"></a># 6. 轻小说 – 次元狗</h4><ul><li>地址：<a href="https://www.acgndog.com/category/qingxiaoshuo">https://www.acgndog.com/category/qingxiaoshuo</a></li><li>类型：EPUB 下载（度盘）</li></ul><p>一个动漫网站，轻小说板块有提供 EPUB 轻小说下载，热门资源大多都有，整理得也很好。下载形式为度盘。</p><h4 id="7-轻小说-–-ACG调查小队"><a href="#7-轻小说-–-ACG调查小队" class="headerlink" title="# 7. 轻小说 – ACG调查小队"></a># 7. 轻小说 – ACG调查小队</h4><ul><li>地址：<a href="https://acg12.com/tag/%E8%BD%BB%E5%B0%8F%E8%AF%B4/">https://acg12.com/tag/轻小说/</a></li><li>类型：EPUB、TXT 下载（度盘）</li></ul><p>动漫网站，有轻小说标签，建议通过搜索查询需要的小说资源，形式为度盘。</p><h4 id="8-鸠摩搜书-文档搜索引擎"><a href="#8-鸠摩搜书-文档搜索引擎" class="headerlink" title="# 8. 鸠摩搜书 - 文档搜索引擎"></a># 8. 鸠摩搜书 - 文档搜索引擎</h4><ul><li>地址：<a href="https://www.jiumodiary.com/">https://www.jiumodiary.com/</a></li><li>类型：下载</li></ul><p>鸠摩搜书是一个非常强大的电子书搜索引擎，当然也可以搜索轻小说了。</p><p>右侧还会显示出图书的购买地址、有声书、漫画等相关资源链接。</p><p><img src= "/img/loading.gif" data-lazy-src="https://mmbiz.qpic.cn/mmbiz_png/wd0A9LjWKMfa2wkIuPibXmjKokgeKcsO0tKCtbuibpVBfAdXMXsGDH5SrueFpRicVlKxbgdnIQefJviclDa2S3WWtw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>除了上面这些网站外，还有贴吧、相关小说群组、汉化组群/网站、爱好者博客等，也是不错的途径。</p><p>而且因为这些地方大部分都是爱好者，因此资源多是经过整理和挑选的，质量也常会更高些。</p><p>下次会分享些常用的小说搜索方法和技巧，方便大家自己搜索！</p><p><strong>更多推荐：</strong></p><ul><li><a href="http://mp.weixin.qq.com/s?__biz=MzU4MjE3MTE4MQ==&mid=2247486027&idx=1&sn=ada0df0c59553b2c53e22d2f2755a847&chksm=fdbd2509cacaac1f1f0c6fa5af981a18bd38c11aefa372db6c80515c6042b22ea82800e0dde9&scene=21#wechat_redirect">精选影视剧&amp;动漫&amp;小说爱好者必备网站应用汇总</a></li><li><a href="http://mp.weixin.qq.com/s?__biz=MzU4MjE3MTE4MQ==&mid=2247485455&idx=1&sn=67678e8974c699ffb3f43132e0becc73&chksm=fdbd274dcacaae5b502d8c93a7e3b523a5f1d160d86280d37c8529879444a9eed3cd4d8def50&scene=21#wechat_redirect">漫画爱好者必备的漫画在线阅读下载网站分享</a></li><li><a href="http://mp.weixin.qq.com/s?__biz=MzU4MjE3MTE4MQ==&mid=2247486022&idx=1&sn=34c1b8021ad11c71025a275831a6404f&chksm=fdbd2504cacaac12d1b5940f0c16a6073bc8082f451e3394970f5af7ddcef457b2aea8f91339&scene=21#wechat_redirect">6个免费&amp;高质量的动漫下载网站推荐，追番&amp;收藏必备！</a></li><li><a href="http://mp.weixin.qq.com/s?__biz=MzU4MjE3MTE4MQ==&mid=2247485863&idx=1&sn=5462b0d7240a169ab051099119715ae7&chksm=fdbd26e5cacaaff395923a2e5cbd3789335c7f5776ae601bef0d5e265a8ea192de2883f33adf&scene=21#wechat_redirect">8个高清二次元动漫壁纸网站推荐</a></li><li><a href="http://mp.weixin.qq.com/s?__biz=MzU4MjE3MTE4MQ==&mid=2247486093&idx=1&sn=0eafefc2b06dd1505eec89904c26e459&chksm=fdbd25cfcacaacd9f5ff8d1fe594ed2ff8f8ff11149b6dd39d210f9d75ce2288e08d0c589501&scene=21#wechat_redirect">5个非常实用的免费在线工具，总有一个你用得到！</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;轻小说网站分享&quot;&gt;&lt;a href=&quot;#轻小说网站分享&quot; class=&quot;headerlink&quot; title=&quot;轻小说网站分享&quot;&gt;&lt;/a&gt;轻小说网站分享&lt;/h2&gt;&lt;p&gt;这次不局限于专门的轻小说网站，有些站点里的「轻小说」板块也很不错，也一起分享。&lt;/p&gt;
+&lt;p&gt;全部都</summary>
+      
+    
+    
+    
+    <category term="资源分享" scheme="https://www.ranas.cn/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="杂项" scheme="https://www.ranas.cn/tags/%E6%9D%82%E9%A1%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>heroku搭建v2教程</title>
+    <link href="https://www.ranas.cn/heroku%E6%90%AD%E5%BB%BAv2%E6%95%99%E7%A8%8B.html"/>
+    <id>https://www.ranas.cn/heroku%E6%90%AD%E5%BB%BAv2%E6%95%99%E7%A8%8B.html</id>
+    <published>2021-02-15T14:54:22.000Z</published>
+    <updated>2021-02-15T15:12:53.037Z</updated>
+    
+    <content type="html"><![CDATA[<p>合并了利用Heroku搭建V2Ray与使用Cloudflare Workers加速V2Ray两篇文章，加以修饰、润色后发出</p><p>注意！本教程仅且只能用于研究与学习</p><p>Heroku最近开始查封此类应用了，据说一部署就会被封，但是我自己的号倒是啥事没有，一个美国、一个欧洲都还能用，可能也是我上学没时间用的缘故，月流量极少，因此苟活至此…</p><h2 id="一-限制"><a href="#一-限制" class="headerlink" title="一.限制"></a>一.限制</h2><p>先讲清楚限制，再开始教程，免得有些人找事</p><ol><li>Heroku免费套餐每月只有550小时的免费时间，适合中重度用户（每天18小时以内），重度用户（24小时）请左转付费VPN</li><li>速度视时间而定；当然，主要取决于你家的网络</li><li>建议问问题之前先谷歌一下</li><li>教程仅适用于PC端，其他平台暂未试验</li><li>Heroku免费容器未使用超过一段时间（三十分钟左右）就会休眠</li><li>更新时间为：2020年07月26日，不希望2100年有人突然问我：“博主！你的方法失效了，怎么回事！？”</li></ol><h2 id="二-准备"><a href="#二-准备" class="headerlink" title="二.准备"></a>二.准备</h2><ol><li>一个非国内邮箱地址，没有的请右转Microsoft注册（用来注册Heroku以及Cloudflare账户）</li><li>确保自身处在非封锁国际互联网地区</li><li>实时在线的脑子</li><li>翻译工具，也可以使用Google Chrome浏览器</li><li>V2Ray软件；没有！？好吧，<a href="https://skx.herokuapp.com/Software/v2rayN-Core.rar">点击下载</a></li></ol><h2 id="三-基础教程"><a href="#三-基础教程" class="headerlink" title="三.基础教程"></a>三.基础教程</h2><ol><li><a href="https://www.heroku.com/">注册Heroku账户</a></li></ol><p>注意：请使用外网IP注册，且请准备好翻译工具，并在收到邮件后激活账户；注册时不能使用QQ邮箱</p><ol><li><a href="https://dashboard.heroku.com/new?template=https://github.com/bclswl0827/v2ray-heroku">点击部署V2Ray</a></li></ol><p>数据中心就是你的服务器地址，谨慎选择；名称就是你的二级域名前缀，如果出现红色说明该名称不可用，多换几个就好；然后点击<code>Deploy app</code>系统会自动部署</p><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093425372"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093425372" alt="img"></a></p><ol><li><p>稍微等待一会儿，几秒的样子，直到全部打勾变绿</p></li><li><p><a href="https://dashboard.heroku.com/apps">点击进入你的项目</a></p></li></ol><p>注意：你会看到一个项目，点击上方的Settings进入，查看你的V2Ray具体配置，如图</p><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189074"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189074" alt="img"></a></p><ol><li>点击Reveal Config Vars显示V2RrayN相关配置信息，如图</li></ol><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189134"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189134" alt="img"></a></p><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189206"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189206" alt="img"></a></p><ol><li>开始配置V2Ray，如果你记好了以上两个（一串字母和二级网域）</li></ol><p>二级网域不用加<code>https://</code>，直接填域名就好</p><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189244"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189244" alt="img"></a></p><ol><li>完成，接下来要是不会使用V2Ray请自裁</li></ol><h2 id="四-进阶教程"><a href="#四-进阶教程" class="headerlink" title="四.进阶教程"></a>四.进阶教程</h2><p>对速度有要求的人群（强迫症患者）可以看一下；主要是使用Cloudflare Workers加速，免费套餐有调用限制，大家悠着点用就行了</p><ol><li>在<a href="https://dash.cloudflare.com/">Cloudflare Workers</a>中创建一个Workers</li></ol><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189291"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189291" alt="img"></a></p><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189344"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189344" alt="img"></a></p><ol><li>将原有的示例代码全部删除，复制如下代码，并将第四行的汉字替换为你的V2Ray的地址</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">addEventListener(  &quot;fetch&quot;,event &#x3D;&gt; &#123;     let url&#x3D;new URL(event.request.url);     url.hostname&#x3D;&quot;需要反代的 V2Ray 服务器地址&quot;;     let request&#x3D;new Request(url,event.request);     event. respondWith(       fetch(request)     )  &#125; )</span><br></pre></td></tr></table></figure><ol><li>点击右侧的<code>发送</code>按钮，看最后一行是否出现了<code>Bad Request</code>，出现则代表成功</li></ol><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189420"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189420" alt="img"></a></p><p>第二、三两步的示范图</p><ol><li>成功后，点击<code>保存并部署</code>，并记下你的Workers二级域名</li><li>其实到第四步已经可以了，把V2Ray中原来的域名改为现在的Workers域名就行了，但是毕竟会有人追求极致完美嘛</li></ol><p>对速度有更高追求以及不怕折腾的人可以接着往下看</p><h3 id="对Cloudflare节点的筛选"><a href="#对Cloudflare节点的筛选" class="headerlink" title="对Cloudflare节点的筛选"></a>对Cloudflare节点的筛选</h3><p>点击下载<a href="https://skx.herokuapp.com/Sound/CF%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9fping-msys2.0.zip">IP自选程序</a>，解压，在Windows系统下运行</p><p>懒得折腾的人请直接运行<code>自动查找最优CF节点-懒人专用.bat</code>程序，但实测选出来的节点不如半自动</p><p>其他的<code>使用说明.txt</code>文件中都有说，在此就不过多赘述</p><p>最后，配置V2Ray：</p><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093188948"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093188948" alt="img"></a></p><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>由于各地的网络情况每天都不同，所以每天（甚至是每半天）的最优节点都不尽相同；但对于一个应急用的已经足够了</p><h2 id="五-效果图"><a href="#五-效果图" class="headerlink" title="五.效果图"></a>五.效果图</h2><p>折腾完一圈后的测速：</p><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189467"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093189467" alt="img"></a></p><p>对于免费的来说已经相当快了</p><p>实际使用效果图：</p><p><a href="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093430235"><img src= "/img/loading.gif" data-lazy-src="https://baklibcdn.dagle.cn/t/255caf6f-20d2-4aa5-a7f4-df5a296941fc/u/61be66cf-0a73-48eb-ba32-2a5c7f60cfa2/1612093430235" alt="img"></a></p><p>从YouTube的视频测试来看还是不错的</p><p>总评：比某些大部分的机场免费套餐都好，甚至直逼少数机场的初级付费套餐；对于我这样的穷学生来讲已经够用的。</p><h2 id="原文链接"><a href="#原文链接" class="headerlink" title="原文链接"></a>原文链接</h2><p><a href="https://www.skxlz.top/2020/07/26/25/#">Heroku搭建V2Ray并用CF加速</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;合并了利用Heroku搭建V2Ray与使用Cloudflare Workers加速V2Ray两篇文章，加以修饰、润色后发出&lt;/p&gt;
+&lt;p&gt;注意！本教程仅且只能用于研究与学习&lt;/p&gt;
+&lt;p&gt;Heroku最近开始查封此类应用了，据说一部署就会被封，但是我自己的号倒是啥事没有，一</summary>
+      
+    
+    
+    
+    <category term="学习过程" scheme="https://www.ranas.cn/categories/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B/"/>
+    
+    
+    <category term="heroku" scheme="https://www.ranas.cn/tags/heroku/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo备份步骤</title>
+    <link href="https://www.ranas.cn/hexo%E5%A4%87%E4%BB%BD%E6%AD%A5%E9%AA%A4.html"/>
+    <id>https://www.ranas.cn/hexo%E5%A4%87%E4%BB%BD%E6%AD%A5%E9%AA%A4.html</id>
+    <published>2021-02-03T16:53:35.000Z</published>
+    <updated>2021-02-03T17:00:19.815Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文首次发布于我的博客：<a href="https://www.yshawlon.cn/">Yshawlon</a></p><p>可能有的小伙伴认为备份不就创建一个仓库多简单；或者说我将Hexo博客源文件拷贝到U盘不就可以了吗，可是你写一篇文章或者更新一次配置就要拷贝一次不是很麻烦吗？</p><p><strong>备份博客源文件的好处：</strong></p><ul><li>如果电脑突然罢工，我们的源文件也不会丢失。</li><li>有时候不方便需要更换电脑写作，我们直接clone仓库就可以了。</li></ul><p><strong>开始我也认为创建一个仓库就可以，可是clone下来的文件却是这样？</strong></p><p><img src= "/img/loading.gif" data-lazy-src="https://pic4.zhimg.com/v2-0e819cbe7560e6d77f4fcf81c4908553_r.jpg" alt="img"></p><blockquote><p>原因： Hexo 博客是静态托管的，仓库只有生成的静态网页文件，并没有Hexo的源文件。</p></blockquote><h2 id="备份步骤"><a href="#备份步骤" class="headerlink" title="备份步骤"></a>备份步骤</h2><ul><li><strong>创建一个仓库用来存放备份文件，名字随便，勾选README。</strong></li></ul><p>-———</p><ul><li><strong>复制仓库地址，运行Git将仓库clone到本地。</strong></li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:MUYIio/hexo-themes-matery.git</span><br><span class="line">//git@github.com:MUYIio/hexo-themes-matery.git 改为你自己的</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://pic4.zhimg.com/v2-e009aba43c4b92e7ac8ad0ef0950279b_r.jpg" alt="img"></p><p><img src= "/img/loading.gif" data-lazy-src="https://pic4.zhimg.com/v2-7f025760e140287666bf65d16f4a19ef_r.jpg" alt="img"></p><p>-———</p><ul><li><strong>将要备份的文件放到我们刚才clone的文件夹里面。</strong></li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://pic2.zhimg.com/v2-538a4a45d83dd32c641b70d6b56f1281_r.jpg" alt="img"></p><p>-———</p><ul><li><strong>在clone的文件夹下运行Git（免得切换cd XXX），依次输入以下命令就可以了。</strong></li></ul><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit  -m  &quot;backup&quot;  （注：“backup”里面换成你需要，如“first commit”）</span><br><span class="line">git push -u origin master   （注：此操作目的是把本地仓库push到github上面，如果没有使用密钥此步骤需要你输入帐号和密码）</span><br></pre></td></tr></table></figure><p><img src= "/img/loading.gif" data-lazy-src="https://pic4.zhimg.com/v2-d90349e58807ac3868d3e50fc41d3c43_r.jpg" alt="img"></p><p>-———</p><ul><li><strong>最后打开我们的仓库就可以看到已经上传了。</strong></li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://pic3.zhimg.com/v2-9fc7a717e22263404d2797000aca5f02_r.jpg" alt="img"></p><p>以后更新备份使用：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit  -m  &quot;backup&quot;</span><br><span class="line">git push origin master </span><br></pre></td></tr></table></figure><p>搬运自<a href="https://zhuanlan.zhihu.com/p/127027266">https://zhuanlan.zhihu.com/p/127027266</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本文首次发布于我的博客：&lt;a href=&quot;https://www.yshawlon.cn/&quot;&gt;Yshawlon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可能有的小伙伴认为备份不就创建一个仓库多简单；或者说我将Hexo博客源文件拷贝到U盘不就可以了吗，可是你写一篇文章或者更新一次配置就要拷贝一</summary>
+      
+    
+    
+    
+    <category term="学习过程" scheme="https://www.ranas.cn/categories/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://www.ranas.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>记一次失眠闲聊</title>
     <link href="https://www.ranas.cn/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%A4%B1%E7%9C%A0%E9%97%B2%E8%81%8A.html"/>
     <id>https://www.ranas.cn/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%A4%B1%E7%9C%A0%E9%97%B2%E8%81%8A.html</id>
     <published>2021-02-02T18:47:12.000Z</published>
-    <updated>2021-02-02T19:08:55.652Z</updated>
+    <updated>2021-02-03T16:22:01.260Z</updated>
     
     <content type="html"><![CDATA[<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>理发加串门，半夜时间回到家中，打开微信看看有什么未读的消息，一眼看到了傻弟弟给我打的一个语音，随手回了一句，未想他还没睡，遂，呼之。</p><h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p>吹牛逼，吹牛逼，吹牛逼，吹牛逼，吹牛逼，吹牛逼，吹牛逼……（呸，粗鄙！）</p><h1 id="所得"><a href="#所得" class="headerlink" title="所得"></a>所得</h1><p>傻弟弟是真能吹牛逼</p>]]></content>
     
@@ -35,27 +157,6 @@
     
     
     <category term="杂项" scheme="https://www.ranas.cn/tags/%E6%9D%82%E9%A1%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://www.ranas.cn/hello-world.html"/>
-    <id>https://www.ranas.cn/hello-world.html</id>
-    <published>2021-02-02T16:32:56.210Z</published>
-    <updated>2020-12-03T14:29:08.332Z</updated>
-    
-    <content type="html"><![CDATA[<p>欢迎使用hexo-ran整合包，能够看到这篇文章说明您成功的部署了本博客</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;欢迎使用hexo-ran整合包，能够看到这篇文章说明您成功的部署了本博客&lt;/p&gt;
-</summary>
-      
-    
-    
-    
     
   </entry>
   

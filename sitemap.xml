@@ -2,16 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ranas.cn/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%A4%B1%E7%9C%A0%E9%97%B2%E8%81%8A.html</loc>
+    <loc>https://www.ranas.cn/%E5%A6%82%E4%BD%95%E8%87%AA%E5%88%B6%E6%BC%AB%E7%94%BB.html</loc>
     
-    <lastmod>2021-02-02</lastmod>
+    <lastmod>2021-04-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/%E8%BD%BB%E5%B0%8F%E8%AF%B4%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB.html</loc>
+    
+    <lastmod>2021-02-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/heroku%E6%90%AD%E5%BB%BAv2%E6%95%99%E7%A8%8B.html</loc>
+    
+    <lastmod>2021-02-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/hexo%E5%A4%87%E4%BB%BD%E6%AD%A5%E9%AA%A4.html</loc>
+    
+    <lastmod>2021-02-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/messageboard/index.html</loc>
+    
+    <lastmod>2021-02-03</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.ranas.cn/hello-world.html</loc>
     
-    <lastmod>2020-12-03</lastmod>
+    <lastmod>2021-02-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%A4%B1%E7%9C%A0%E9%97%B2%E8%81%8A.html</loc>
+    
+    <lastmod>2021-02-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/categories/index.html</loc>
+    
+    <lastmod>2021-02-03</lastmod>
     
   </url>
   
@@ -30,21 +72,7 @@
   </url>
   
   <url>
-    <loc>https://www.ranas.cn/messageboard/index.html</loc>
-    
-    <lastmod>2020-12-02</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.ranas.cn/tags/index.html</loc>
-    
-    <lastmod>2020-12-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.ranas.cn/categories/index.html</loc>
     
     <lastmod>2020-12-01</lastmod>
     
@@ -53,19 +81,54 @@
 
   <url>
     <loc>https://www.ranas.cn/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://www.ranas.cn/tags/heroku/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/tags/%E6%BC%AB%E7%94%BB/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ranas.cn/tags/%E6%9D%82%E9%A1%B9/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://www.ranas.cn/categories/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
