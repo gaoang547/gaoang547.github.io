@@ -381,34 +381,28 @@
   <entry>
     <title>亚马逊电子书去DRM</title>
     <url>/%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%94%B5%E5%AD%90%E4%B9%A6%E5%8E%BBDRM.html</url>
-    <content><![CDATA[<p><strong>如何去除Kindle电子书的DRM版权保护</strong></p>
-<p>在使用Kindle买书的时候，会遇到这样的情况，买来的书个别排版或文字有错误想要修改一下；电子书的封面有问题，想要调换一下；家里有多台Kindle，买来一本书，想全家共享一下，奈何有版权保护，电子书离开你的Kindle就没办法阅读了。那么，这个时候，就需要破解版权保护。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\14ce49d6cb914fea995760af2187f2b2\e_dedrm_ppt.jpeg)</p>
+    <content><![CDATA[<h1 id="如何去除Kindle电子书的DRM版权保护"><a href="#如何去除Kindle电子书的DRM版权保护" class="headerlink" title="如何去除Kindle电子书的DRM版权保护"></a>如何去除Kindle电子书的DRM版权保护</h1><p>在使用Kindle买书的时候，会遇到这样的情况，买来的书个别排版或文字有错误想要修改一下；电子书的封面有问题，想要调换一下；家里有多台Kindle，买来一本书，想全家共享一下，奈何有版权保护，电子书离开你的Kindle就没办法阅读了。那么，这个时候，就需要破解版权保护。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_ppt.jpg" alt="kindle_dedrm_ppt"></p>
 <p>读前请注意：因为解锁去除 Kindle 电子书的 DRM 保护需要用到购买该书的 Kindle 设备的序列号，所以请确保要破解的电子书是通过绑定了你亚马逊账号的 Kindle 所购买的，本方法不适用于别人购买的或从网上下载到的受 DRM 保护的电子书。</p>
 <p>请遵守版权法，不要用于盗版电子书。</p>
-<p><strong>本文导读</strong></p>
-<p>一、电子书的 DRM 保护是什么意思？</p>
+<h2 id="本文导读"><a href="#本文导读" class="headerlink" title="本文导读"></a>本文导读</h2><p>一、电子书的 DRM 保护是什么意思？</p>
 <p>二、为什么要破解 DRM、除去 DRM 保护？</p>
 <p>三、怎么破解 DRM 保护？如何去除 DRM 保护？</p>
 <p>四、移除 Kindle 电子书 DRM 保护详细步骤</p>
 <p>五、相关问答</p>
-<p><strong>一、电子书的 DRM 保护是什么意思？</strong></p>
-<p>DRM，全称 Digital Rights Management（数字版权管理），是随着电子音频视频节目在互联网上的广泛传播而发展起来的一种新技术。出版者利用这些技术保护有数字化内容（例如：软件、音乐、电影），防止数字出版物被非法复制，或者在一定程度上使复制很困难，使得最终用户必须得到授权后才能使用数字媒体。解释听起来很官方，其实在这里我们只需要知道DRM是为了保护电子书版权而使用的一种限制技术就可以了。</p>
+<h3 id="一、电子书的-DRM-保护是什么意思？"><a href="#一、电子书的-DRM-保护是什么意思？" class="headerlink" title="一、电子书的 DRM 保护是什么意思？"></a>一、电子书的 DRM 保护是什么意思？</h3><p>DRM，全称 Digital Rights Management（数字版权管理），是随着电子音频视频节目在互联网上的广泛传播而发展起来的一种新技术。出版者利用这些技术保护有数字化内容（例如：软件、音乐、电影），防止数字出版物被非法复制，或者在一定程度上使复制很困难，使得最终用户必须得到授权后才能使用数字媒体。解释听起来很官方，其实在这里我们只需要知道DRM是为了保护电子书版权而使用的一种限制技术就可以了。</p>
 <p>了解更多：</p>
 <p><a href="https://en.wikipedia.org/wiki/Digital_rights_management">https://en.wikipedia.org/wiki/Digital_rights_management</a></p>
-<p><strong>二、为什么要破解 DRM、除去 DRM 保护？</strong></p>
-<p>文章开头我已经讲过了。再先举个例子，我从亚马逊购买了一本电子书，尝试使用 Calibre 软件把这本电子书的 azw 格式文件换成 mobi 格式时，会弹出如下图所示的错误提示，无法转换格式也无法阅读。</p>
+<h3 id="二、为什么要破解-DRM、除去-DRM-保护？"><a href="#二、为什么要破解-DRM、除去-DRM-保护？" class="headerlink" title="二、为什么要破解 DRM、除去 DRM 保护？"></a>二、为什么要破解 DRM、除去 DRM 保护？</h3><p>文章开头我已经讲过了。再先举个例子，我从亚马逊购买了一本电子书，尝试使用 Calibre 软件把这本电子书的 azw 格式文件换成 mobi 格式时，会弹出如下图所示的错误提示，无法转换格式也无法阅读。</p>
 <p>为了保护电子书的版权，亚马逊提供的 azw 或 azw3 格式电子书都是经过 DRM 加密了的，即便是获取到了 azw 或 azw3 格式的电子书文件，也无法直接在其他阅读器或阅读设备上阅读。比如你在亚马逊买到一本电子书，想要共享给自己的亲朋好友，或拷贝到另外一台 Kindle 设备，但由于 DRM 保护，他们的 Kindle 设备却无法阅读。为了突破这种限制，就需要移除 DRM 保护（当然需要声明的是我们的目的不是为了盗版）。</p>
-<p><strong>三、怎么破解 DRM 保护？如何去除 DRM 保护？</strong></p>
-<p>其实移除破解 DRM 保护的操作很简单。在开始破解 DRM 保护之前，我们需要准备好 DRM 移除软件、带 DRM 保护的电子书以及和你的亚马逊账号绑定的 Kindle 设备的序列号。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\3adabb8652dd412980ba4fb09d364082\drm_01_logo.jpeg)</p>
+<h3 id="三、怎么破解-DRM-保护？如何去除-DRM-保护？"><a href="#三、怎么破解-DRM-保护？如何去除-DRM-保护？" class="headerlink" title="三、怎么破解 DRM 保护？如何去除 DRM 保护？"></a>三、怎么破解 DRM 保护？如何去除 DRM 保护？</h3><p>其实移除破解 DRM 保护的操作很简单。在开始破解 DRM 保护之前，我们需要准备好 DRM 移除软件、带 DRM 保护的电子书以及和你的亚马逊账号绑定的 Kindle 设备的序列号。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_01_logo.jpg" alt="kindle_dedrm_01_logo"></p>
 <p>\1. 下载软件 DeDRM tools</p>
 <p>DeDRM Tools (6.5.3)下载：</p>
 <p>在博客网站Apprentice Alf’s Blog：</p>
 <p><a href="https://apprenticealf.wordpress.com/">https://apprenticealf.wordpress.com/</a></p>
 <p>或者直接到GitHub下载：</p>
 <p><a href="https://github.com/apprenticeharper/DeDRM_tools/">https://github.com/apprenticeharper/DeDRM_tools/</a></p>
-<p><img src= "/img/loading.gif" data-lazy-src="H:/360Downloads/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/Program%20files/xbz201801010048@163.com/c540bc4d2cc6458a9c1a298ebd445cd6/attachment.png" alt="DeDRM_tools_7.2.1.zip"></p>
 <p>将下载来的压缩包 DeDRM_tools-master.zip 解压备用。</p>
 <p>\2. 准备好需要移除 DRM 保护的电子书</p>
 <p>把需要破解的 azw 或 azw3 格式的电子书保存到电脑上，获取方式有以下几种：</p>
@@ -431,29 +425,28 @@
 <p>home — menu — setting — 第二页的Device Info里的“Serial Number:”</p>
 <p><strong>Kindle 1 / 2 / 3 / Keyboard / DX / DXG：</strong></p>
 <p>home — menu — settings — 屏幕右下角会显示序列号（未证实）</p>
-<p><strong>四、移除 Kindle 电子书 DRM 保护详细步骤</strong></p>
-<ol>
+<h3 id="四、移除-Kindle-电子书-DRM-保护详细步骤"><a href="#四、移除-Kindle-电子书-DRM-保护详细步骤" class="headerlink" title="四、移除 Kindle 电子书 DRM 保护详细步骤"></a>四、移除 Kindle 电子书 DRM 保护详细步骤</h3><ol>
 <li>首先要下载caliber E-book management</li>
 </ol>
 <p>官方下载地址：<a href="http://calibre-ebook.com/">http://calibre-ebook.com/</a></p>
 <p>也可以在百度搜索caliber，百度软件中心也有此款软件下载。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\970ca5394c3244799a7e54a1b65192a2\ibrefeature.jpeg)</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\f1151275a92b4378810a6999e08d84ab\alibre_word.jpeg)</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_00_calibrefeature.jpg" alt="kindle_dedrm_00_calibrefeature"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_00_calibre_word.jpg" alt="kindle_dedrm_00_calibre_word"></p>
 <p>\2. 安装caliber E-book management</p>
 <p>Windows操作系统下，下载回来的安装文件大概是这样的名称“calibre-2.82.0.msi”，和安装其他软件一样，双击安装，下一步，下一步…，安装好后，可以设置你电脑里Kindle图书备份存放的位置，caliber会自动将图书导入软件，并展示在界面中央。</p>
 <p>安装过程里，有一步是“选择书库位置”，这一步要设置好了，当你向caliber添加书籍，添加的书籍会自动复制到这个文件夹里，并且当你去除DRM保护，转换图书的时候，破解后的图书也会复制到这个“书库”文件夹里。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\89f1d61e61b04d6b89bff88bb3354969_02_library.jpeg)</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\eb1ae3ff17f64475bfc14e22bb241116_03_calibre.jpeg)</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_02_library.jpg" alt="kindle_dedrm_02_library"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_03_calibre.jpg" alt="kindle_dedrm_03_calibre"></p>
 <p>\3. 点击calibre界面上面一排图标菜单的最右边的“首选项”按钮。弹出“首选项”工具对话框。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\ef399916dcf94ec59d093205ed1efad8\rm_04_tools.jpeg)</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_04_tools.jpg" alt="kindle_dedrm_04_tools"></p>
 <p>\4. 在“首选项”工具对话框最下面“高级选项”一行，点击首个“插件”按钮。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\a8ceb65b23ec43d585c93b3971e9d6c4\m_05_plugin.jpeg)</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_05_plugin.jpg" alt="kindle_dedrm_05_plugin"></p>
 <p>\5. 点击“插件”对话框右下角的“从文件加载插件”按钮。从刚才下载回来并已经解压备用的DeDRM_tools-master.zip ，定位到DeDRM_tools-master\DeDRM_calibre_plugin文件夹，选择其中的DeDRM_tools-master.zip（无需解压），将DeDRM插件导入calibre。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\d0d0e327ff144401b5c29166ef064ea2\hooseplugin.jpeg)</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_06_chooseplugin.jpg" alt="kindle_dedrm_06_chooseplugin"></p>
 <p>\6. DeDRM插件导入后，在calibre的“插件”对话框中，选择第三排的“文件类型 插件”，将其展开，找到第二条的DeDRM(6.5.3)，双击，弹出小对话框“自定义DeDRM”。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\87c8f996ee8340eba4e794dba9530603\m_07_custom.jpeg)</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_07_custom.jpg" alt="kindle_dedrm_07_custom"></p>
 <p>\7. 小对话框“自定义DeDRM”里，选择第一个按钮“eInk kindle ebooks”在弹出的DeDRM 6.5.3：Manage EInk Kindle Serial Numbers对话框右侧，点击绿色“+”按钮，弹出DeDRM 6.5.3：Add New EInk Kindle Serial Number对话框，将你的Kindle序列号填入其中。当然，这两步可以反复操作，以便加入更多序列号。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\0ed97a8769994a1c988dde99390fd8af\lnumbers_v2.jpeg)</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_08_serialnumbers_v2.jpg" alt="kindle_dedrm_08_serialnumbers"></p>
 <ol>
 <li>设置完毕后，关闭以上一系列弹出的对话框，返回到刚才的calibre主界面。查看刚才导入的电子书目录，选择想要破解DRM的电子书，点击calibre界面上面一排图标菜单的左边第三个“转换书籍”按钮。弹出“转换+你的电子书名称”对话框。</li>
 </ol>
@@ -464,21 +457,24 @@
 <p>metadata.opf</p>
 <p>Yu Zui _Wo De Xing Zhen Bi Ji 8 - Chang Shu Xin.azw3</p>
 <p>Yu Zui _Wo De Xing Zhen Bi Ji 8 - Chang Shu Xin.original_azw3</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\909fc3cb05ec414bb2d023a9bf85d709_09_convert.jpeg)</p>
-<p><strong>五、相关问答</strong></p>
-<p>1、为什么从 Kindle 复制的电子书破解后不显示图片了？</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_09_convert.jpg" alt="kindle_dedrm_09_convert"></p>
+<h3 id="五、相关问答"><a href="#五、相关问答" class="headerlink" title="五、相关问答"></a>五、相关问答</h3><p>1、为什么从 Kindle 复制的电子书破解后不显示图片了？</p>
 <p>请检查一下未破解前的 azw3 文件和破解后的 azw3 文件的字节数是否相同，如果相同说明这并非破解导致的问题，而是在没破解前图片就已经不存在了。这也可能是因为亚马逊的新的处理机制的问题，推送到 Kindle 的电子书内容和图片被分离了，从而导致直接从 Kindle 中复制出来的 azw3 文件不包含图片。如遇到此问题，请进入亚马逊后台的 我的内容（用绑定 Kindle 的亚马逊账号登录），找到想要破解的那本本书，点击电子书旁边的【…】按钮，在弹出的菜单中点击“通过电脑下载USB传输”把电子书下载到电脑中，再传到calibre，然后按照本文的方法进行破解即可。</p>
 <ol>
 <li>从亚马逊买的电子书，“通过电脑下载USB传输”，在Kindle里面看不到图书封面图片？</li>
 </ol>
 <p>在亚马逊个人账户里的“管理我的内容和设备”选择一本你买的电子书，然后在书名前面的“…”按钮弹出的对话框里，选择“通过电脑下载USB传输”下载到PC上，再用USB导线连接Kindle，将这本你买的电子书传到Kindle里面去，你会发现，这本书在Kindle目录里丢失了封面图片。但是，如果你直接拿Kindle在线购买，就会有图片。</p>
-<p>![img](H:\360Downloads\有道云笔记\Program files\xbz201801010048@163.com\3395f7758fd5463d8e1a8f2d5f249df4_10_content.jpeg)</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_10_content.jpg" alt="kindle_dedrm_10_content"></p>
 <p>处理办法是：将“通过电脑下载USB传输”下载到PC上的电子书先添加到calibre里面，然后电脑通过USB导线连接Kindle，再用calibre将刚才添加进来的电子书发送到Kindle，这样，电子书的封面图片就会出现在Kindle里了。</p>
 <p>caliber E-book management</p>
 <p><a href="http://calibre-ebook.com/">http://calibre-ebook.com/</a></p>
 <p>DeDRM Tools 6.5.3</p>
 <p><a href="https://apprenticealf.wordpress.com/">https://apprenticealf.wordpress.com/</a></p>
 <p><a href="https://github.com/apprenticeharper/DeDRM_tools/">https://github.com/apprenticeharper/DeDRM_tools/</a></p>
+<p>本文参考了：</p>
+<p><a href="http://www.jianshu.com/p/d838f593c8ca">http://www.jianshu.com/p/d838f593c8ca</a></p>
+<p><a href="http://www.360doc.com/content/15/0928/09/6168670_501948828.shtml">http://www.360doc.com/content/15/0928/09/6168670_501948828.shtml</a></p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_11_paperwhite.jpg" alt="kindle_dedrm_11_paperwhite"><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_12_paperwhite.jpg" alt="kindle_dedrm_12_paperwhite"></p>
 <p>本文搬运自：<a href="http://www.staycu.com/archives/259">http://www.staycu.com/archives/259</a></p>
 ]]></content>
       <categories>
