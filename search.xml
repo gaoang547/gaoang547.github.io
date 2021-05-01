@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Calibre将电子书繁体转简体</title>
+    <url>/Calibre%E5%B0%86%E7%94%B5%E5%AD%90%E4%B9%A6%E7%B9%81%E4%BD%93%E8%BD%AC%E7%AE%80%E4%BD%93.html</url>
+    <content><![CDATA[<h1 id="Calibre-使用教程之电子书繁体字转简体字"><a href="#Calibre-使用教程之电子书繁体字转简体字" class="headerlink" title="Calibre 使用教程之电子书繁体字转简体字"></a>Calibre 使用教程之电子书繁体字转简体字</h1><p>有没有电子书的简繁体转换方法？如何才能把繁体电子书转换成简体？对于习惯了阅读简体汉字的小伙伴，在遇到繁体版电子书时都会遇到这样的问题，在本文中 Kindle 伴侣就给大家介绍一个比较实用的 Calibre 使用技巧，把电子书中的繁体字转换成你所熟悉的简体字。</p>
+<h2 id="一、下载转换规则词库"><a href="#一、下载转换规则词库" class="headerlink" title="一、下载转换规则词库"></a>一、下载转换规则词库</h2><p>这里的电子书繁体字转简体字的原理是利用了 Calibre 的“查找与替换”功能，此功能可以在转换电子书的同时，根据提供的“替换规则”实时地对电子书内容进行搜索并替换。这里的“替换规则”由“搜索正则表达式”和“替换文本”组成，当然这些替换规则我们不需要手动一个个去输入，已经有网友提供了比较全面的词库规则，可以直接拿来使用。</p>
+<p>这里推荐 HiPDA 论坛的 fengcuo 提供的词库规则。此词库依 Calibre 替换规则对词库进行了校对，增加新字词、繁简对换、修改规则、重排、全词库去重、去繁简同型词组，并修正了由时代进步而呆滞的词组变更。最新版本的词库有 4989 对（含标点）。</p>
+<p>由于简繁存在“一简对多繁”和“一繁对多简”，普通的转换可能会出现丢字（如“後来”不转换）、错换（如“著名”转成“着名”，“甚麽”转成“什麽”）和不转换标点符号的问题。有了专门校正过的词库规则就可以很好的避免这些问题，让行文阅读起来更加流畅。</p>
+<p><strong>词库规则下载</strong>：<a href="https://down.bookfere.com/s/JK7HJexUJu52Dr5">本地下载</a> ｜ <a href="https://pan.baidu.com/s/1qYdQigG">百度网盘</a>（最新版请关注<a href="http://www.hi-pda.com/forum/viewthread.php?tid=1690125">原帖</a>）</p>
+<h2 id="二、繁体转简体操作步骤"><a href="#二、繁体转简体操作步骤" class="headerlink" title="二、繁体转简体操作步骤"></a>二、繁体转简体操作步骤</h2><p>这里以胡适等著的《<a href="http://pan.baidu.com/s/1kTKnj9P">怎样读书</a>》繁体版作为示例演示操作步骤：</p>
+<ol>
+<li>打开 Calibre，把“怎样读书.epub”[<a href="https://bookfere.com/post/162.html#zhu_1">注1]</a>拖放到 Calibre 的书库中；</li>
+<li>右键点击该电子书，在弹出的菜单中将鼠标移动到“<strong>转换书籍 -&gt; 逐个转换</strong>”；</li>
+<li>点击“逐个转换”调出转换窗口后，点击窗口左侧的“<strong>查找与替换</strong>”转到查找替换界面（下图）；</li>
+<li>在窗口的右侧操作区点击【加载】按钮，选取刚才下载的 <strong>.csr</strong> 文件；</li>
+<li>点击【确定】开始转换，等待转换完毕即可得到转换成简体字内容的 mobi 文件[<a href="https://bookfere.com/post/162.html#zhu_2">注2]</a>。</li>
+</ol>
+<p><img src= "/img/loading.gif" data-lazy-src="https://bookfere.com/wp-content/uploads/2015/08/Calibre_T2S_1.png" alt="Calibre_T2S_1"></p>
+<p>繁转简最终效果：</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://bookfere.com/wp-content/uploads/2015/08/T2S_1.png" alt="T2S_1"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://bookfere.com/wp-content/uploads/2015/08/T2S_2.png" alt="T2S_2"></p>
+<h2 id="三、自定义转换规则"><a href="#三、自定义转换规则" class="headerlink" title="三、自定义转换规则"></a>三、自定义转换规则</h2><p>虽然该词库已经够大，基本囊括了各常见领域专有名词，但是由于汉语也在演变，且有少部分人名（如个别古人名）等专有名词还是需要部分繁体显示的，所以很难 100% 完美。如果转换完后感觉有个别字词没有转换或者转换错误，可以按照下面方法添加自定义转换规则到规则列表中。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://bookfere.com/wp-content/uploads/2015/08/Calibre_T2S_2.png" alt="Calibre_T2S_2"></p>
+<p>在“查找与替换”界面依次操作：</p>
+<ol>
+<li>在“<strong>查找正则表达式</strong>”栏目填写目标字词；</li>
+<li>在“<strong>替换文本</strong>”栏目填写替换字词；</li>
+<li>点击【添加】按钮把这条替换规则添加到规则中，点击【保存】。</li>
+</ol>
+<p>以上。希望对有需要的小伙伴有所帮助。如果您对原字库规则做了比较多的修正，可以<a href="http://www.hi-pda.com/forum/viewthread.php?tid=1690125">点击这里</a>向原字库规则提供者反馈，帮助他完善，以便造福更多的 Kindler，谢谢。</p>
+<p>——————</p>
+<p><strong>[注1]</strong> 这里只是用 EPUB 格式电子书举例说明，使用其他 AZW、AZW3、MOBI、TXT 等源格式都可以，只要 Calibre 支持此格式的转换。</p>
+<p><strong>[注2]</strong> 这里只是以转换成 Kindle 支持的 MOBI 格式电子书举例，选择转换成其他 AZW、AZW3 等 Kindle 支持的格式也是可以的。</p>
+<p>——————</p>
+<p>参考资料：<a href="https://bookfere.com/post/162.html">书伴</a></p>
+]]></content>
+      <categories>
+        <category>学习过程</category>
+      </categories>
+      <tags>
+        <tag>calibre</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>heroku搭建v2教程</title>
     <url>/heroku%E6%90%AD%E5%BB%BAv2%E6%95%99%E7%A8%8B.html</url>
     <content><![CDATA[<p>合并了利用Heroku搭建V2Ray与使用Cloudflare Workers加速V2Ray两篇文章，加以修饰、润色后发出</p>
@@ -150,6 +192,141 @@
       </categories>
       <tags>
         <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>亚马逊电子书去DRM</title>
+    <url>/%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%94%B5%E5%AD%90%E4%B9%A6%E5%8E%BBDRM.html</url>
+    <content><![CDATA[<h1 id="如何去除Kindle电子书的DRM版权保护"><a href="#如何去除Kindle电子书的DRM版权保护" class="headerlink" title="如何去除Kindle电子书的DRM版权保护"></a>如何去除Kindle电子书的DRM版权保护</h1><p>在使用Kindle买书的时候，会遇到这样的情况，买来的书个别排版或文字有错误想要修改一下；电子书的封面有问题，想要调换一下；家里有多台Kindle，买来一本书，想全家共享一下，奈何有版权保护，电子书离开你的Kindle就没办法阅读了。那么，这个时候，就需要破解版权保护。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_ppt.jpg" alt="kindle_dedrm_ppt"></p>
+<p>读前请注意：因为解锁去除 Kindle 电子书的 DRM 保护需要用到购买该书的 Kindle 设备的序列号，所以请确保要破解的电子书是通过绑定了你亚马逊账号的 Kindle 所购买的，本方法不适用于别人购买的或从网上下载到的受 DRM 保护的电子书。</p>
+<p>请遵守版权法，不要用于盗版电子书。</p>
+<h2 id="本文导读"><a href="#本文导读" class="headerlink" title="本文导读"></a>本文导读</h2><p>一、电子书的 DRM 保护是什么意思？</p>
+<p>二、为什么要破解 DRM、除去 DRM 保护？</p>
+<p>三、怎么破解 DRM 保护？如何去除 DRM 保护？</p>
+<p>四、移除 Kindle 电子书 DRM 保护详细步骤</p>
+<p>五、相关问答</p>
+<h3 id="一、电子书的-DRM-保护是什么意思？"><a href="#一、电子书的-DRM-保护是什么意思？" class="headerlink" title="一、电子书的 DRM 保护是什么意思？"></a>一、电子书的 DRM 保护是什么意思？</h3><p>DRM，全称 Digital Rights Management（数字版权管理），是随着电子音频视频节目在互联网上的广泛传播而发展起来的一种新技术。出版者利用这些技术保护有数字化内容（例如：软件、音乐、电影），防止数字出版物被非法复制，或者在一定程度上使复制很困难，使得最终用户必须得到授权后才能使用数字媒体。解释听起来很官方，其实在这里我们只需要知道DRM是为了保护电子书版权而使用的一种限制技术就可以了。</p>
+<p>了解更多：</p>
+<p><a href="https://en.wikipedia.org/wiki/Digital_rights_management">https://en.wikipedia.org/wiki/Digital_rights_management</a></p>
+<h3 id="二、为什么要破解-DRM、除去-DRM-保护？"><a href="#二、为什么要破解-DRM、除去-DRM-保护？" class="headerlink" title="二、为什么要破解 DRM、除去 DRM 保护？"></a>二、为什么要破解 DRM、除去 DRM 保护？</h3><p>文章开头我已经讲过了。再先举个例子，我从亚马逊购买了一本电子书，尝试使用 Calibre 软件把这本电子书的 azw 格式文件换成 mobi 格式时，会弹出如下图所示的错误提示，无法转换格式也无法阅读。</p>
+<p>为了保护电子书的版权，亚马逊提供的 azw 或 azw3 格式电子书都是经过 DRM 加密了的，即便是获取到了 azw 或 azw3 格式的电子书文件，也无法直接在其他阅读器或阅读设备上阅读。比如你在亚马逊买到一本电子书，想要共享给自己的亲朋好友，或拷贝到另外一台 Kindle 设备，但由于 DRM 保护，他们的 Kindle 设备却无法阅读。为了突破这种限制，就需要移除 DRM 保护（当然需要声明的是我们的目的不是为了盗版）。</p>
+<h3 id="三、怎么破解-DRM-保护？如何去除-DRM-保护？"><a href="#三、怎么破解-DRM-保护？如何去除-DRM-保护？" class="headerlink" title="三、怎么破解 DRM 保护？如何去除 DRM 保护？"></a>三、怎么破解 DRM 保护？如何去除 DRM 保护？</h3><p>其实移除破解 DRM 保护的操作很简单。在开始破解 DRM 保护之前，我们需要准备好 DRM 移除软件、带 DRM 保护的电子书以及和你的亚马逊账号绑定的 Kindle 设备的序列号。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_01_logo.jpg" alt="kindle_dedrm_01_logo"></p>
+<p>\1. 下载软件 DeDRM tools</p>
+<p>DeDRM Tools (6.5.3)下载：</p>
+<p>在博客网站Apprentice Alf’s Blog：</p>
+<p><a href="https://apprenticealf.wordpress.com/">https://apprenticealf.wordpress.com/</a></p>
+<p>或者直接到GitHub下载：</p>
+<p><a href="https://github.com/apprenticeharper/DeDRM_tools/">https://github.com/apprenticeharper/DeDRM_tools/</a></p>
+<p>将下载来的压缩包 DeDRM_tools-master.zip 解压备用。</p>
+<p>\2. 准备好需要移除 DRM 保护的电子书</p>
+<p>把需要破解的 azw 或 azw3 格式的电子书保存到电脑上，获取方式有以下几种：</p>
+<p>① 第一种获取电子书的方法：从亚马逊云端下载（推荐）</p>
+<p>进入亚马逊后台的 我的内容（用绑定 Kindle 的亚马逊账号登录），找到想要破解的那本书，点击电子书旁边的【…】按钮，在弹出的菜单中点击“通过电脑下载USB传输”，选择你的 Kindle 设备，点击【下载】按钮把电子书下载到电脑中，然后再按照本文的方法进行破解即可。</p>
+<p>② 第二种获取电子书方法：从 Kindle 阅读软件的目录中拷贝。</p>
+<p>这一种方法需要安装 Kindle 桌面客户端软件。如果没有安装请先在下面的列表中选择合适您的系统版本安装。安装完成后打开软件，用你的亚马逊账号登录，然后下载想要破解的电子书，再从相应电子书存放路径中找到它们（文件名类似于“B0080BKP1K_EBOK.azw”这种），请将它们拷贝到如桌面等任意位置备用。</p>
+<p>Kindle for Windows 版：官方去下载</p>
+<p>电子书存放路径：C:\Users\你的用户名\Documents\My Kindle Content</p>
+<p>Kindle for Mac 版：官方去下载</p>
+<p>电子书存放路径：/Users/你的用户名/Library/Application Support/Kindle/My Kindle Content</p>
+<p>③ 第三种获取电子书方法：直接从 Kindle 阅读器中拷贝。</p>
+<p>用USB线将 Kindle 连接到电脑，打开 Kindle 驱动器，在根目录里的 Documents 文件夹内找到 azw 或 azw3 格式的电子书文件将其拷贝出来。这种方法现在不建议使用，因为最新版本固件已经将下载到 Kindle 中的电子书中的图片抽离出去，导致直接复制的电子书缺失图片。</p>
+<p>\3. 记下 Kindle 设备的序列号</p>
+<p>Kindle 的序列号可以在包装盒或保修单上找到，没有包装盒或保修单的话也可以在系统里找到，因为 Kindle 系列阅读器的序列号位置不一样，下面列出了各个版本查看序列号的步骤：</p>
+<p><strong>kindle paperwrite 1 / 2 / 3：</strong></p>
+<p>中文版：首页 — 菜单（右上角的三道杠） — 设置 — 菜单（右上角三道杠） — 设备信息</p>
+<p>英文版：Home — Menu — Settings — Menu — Device Info</p>
+<p>kindle 4 / kindle touch：</p>
+<p>home — menu — setting — 第二页的Device Info里的“Serial Number:”</p>
+<p><strong>Kindle 1 / 2 / 3 / Keyboard / DX / DXG：</strong></p>
+<p>home — menu — settings — 屏幕右下角会显示序列号（未证实）</p>
+<h3 id="四、移除-Kindle-电子书-DRM-保护详细步骤"><a href="#四、移除-Kindle-电子书-DRM-保护详细步骤" class="headerlink" title="四、移除 Kindle 电子书 DRM 保护详细步骤"></a>四、移除 Kindle 电子书 DRM 保护详细步骤</h3><ol>
+<li>首先要下载caliber E-book management</li>
+</ol>
+<p>官方下载地址：<a href="http://calibre-ebook.com/">http://calibre-ebook.com/</a></p>
+<p>也可以在百度搜索caliber，百度软件中心也有此款软件下载。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_00_calibrefeature.jpg" alt="kindle_dedrm_00_calibrefeature"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_00_calibre_word.jpg" alt="kindle_dedrm_00_calibre_word"></p>
+<p>\2. 安装caliber E-book management</p>
+<p>Windows操作系统下，下载回来的安装文件大概是这样的名称“calibre-2.82.0.msi”，和安装其他软件一样，双击安装，下一步，下一步…，安装好后，可以设置你电脑里Kindle图书备份存放的位置，caliber会自动将图书导入软件，并展示在界面中央。</p>
+<p>安装过程里，有一步是“选择书库位置”，这一步要设置好了，当你向caliber添加书籍，添加的书籍会自动复制到这个文件夹里，并且当你去除DRM保护，转换图书的时候，破解后的图书也会复制到这个“书库”文件夹里。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_02_library.jpg" alt="kindle_dedrm_02_library"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_03_calibre.jpg" alt="kindle_dedrm_03_calibre"></p>
+<p>\3. 点击calibre界面上面一排图标菜单的最右边的“首选项”按钮。弹出“首选项”工具对话框。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_04_tools.jpg" alt="kindle_dedrm_04_tools"></p>
+<p>\4. 在“首选项”工具对话框最下面“高级选项”一行，点击首个“插件”按钮。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_05_plugin.jpg" alt="kindle_dedrm_05_plugin"></p>
+<p>\5. 点击“插件”对话框右下角的“从文件加载插件”按钮。从刚才下载回来并已经解压备用的DeDRM_tools-master.zip ，定位到DeDRM_tools-master\DeDRM_calibre_plugin文件夹，选择其中的DeDRM_tools-master.zip（无需解压），将DeDRM插件导入calibre。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_06_chooseplugin.jpg" alt="kindle_dedrm_06_chooseplugin"></p>
+<p>\6. DeDRM插件导入后，在calibre的“插件”对话框中，选择第三排的“文件类型 插件”，将其展开，找到第二条的DeDRM(6.5.3)，双击，弹出小对话框“自定义DeDRM”。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_07_custom.jpg" alt="kindle_dedrm_07_custom"></p>
+<p>\7. 小对话框“自定义DeDRM”里，选择第一个按钮“eInk kindle ebooks”在弹出的DeDRM 6.5.3：Manage EInk Kindle Serial Numbers对话框右侧，点击绿色“+”按钮，弹出DeDRM 6.5.3：Add New EInk Kindle Serial Number对话框，将你的Kindle序列号填入其中。当然，这两步可以反复操作，以便加入更多序列号。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_08_serialnumbers_v2.jpg" alt="kindle_dedrm_08_serialnumbers"></p>
+<ol>
+<li>设置完毕后，关闭以上一系列弹出的对话框，返回到刚才的calibre主界面。查看刚才导入的电子书目录，选择想要破解DRM的电子书，点击calibre界面上面一排图标菜单的左边第三个“转换书籍”按钮。弹出“转换+你的电子书名称”对话框。</li>
+</ol>
+<p>在右上角的“输出格式”下拉菜单里选择你想要的电子书格式，一般原格式是什么，转换后的格式也是什么就行了。最后，点击右下角绿色的的“√确定”按钮。此界面关闭，书籍去DRM转换开始，在calibre主界面右下角“任务”处会看到正在转换的任务数量和旋转的圆圈，大概半分钟后，任务数量变为0，说明转换成功，到你设置输出的文件夹里，找到转换后的图书，就可以了。（转换后的图书，会出现在你安装alibre软件时，设置的“书库”位置文件夹里）</p>
+<p>转换后的去除了DRM保护的电子书，会被保存在之前设定的“书库”文件夹里，从这个文件夹里，我们会发现四个文件，有一个封面图片，有一个metadata.opf文件，还有两个电子书，其中一个是original_azw3扩展名的，是原来未被破解的原始导入图书，没有此字样的是破解后的图书。由于是国外软件，书库里面是以作者名字组织文件夹的，中文名就是拼音、中文书籍也是拼音、中文电子书名字也是拼音。</p>
+<p>我这本《余罪8》在calibre书库里，是这个四个文件，其中红色字的是去除了DRM的电子书：</p>
+<p>cover.jpg</p>
+<p>metadata.opf</p>
+<p>Yu Zui _Wo De Xing Zhen Bi Ji 8 - Chang Shu Xin.azw3</p>
+<p>Yu Zui _Wo De Xing Zhen Bi Ji 8 - Chang Shu Xin.original_azw3</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_09_convert.jpg" alt="kindle_dedrm_09_convert"></p>
+<h3 id="五、相关问答"><a href="#五、相关问答" class="headerlink" title="五、相关问答"></a>五、相关问答</h3><p>1、为什么从 Kindle 复制的电子书破解后不显示图片了？</p>
+<p>请检查一下未破解前的 azw3 文件和破解后的 azw3 文件的字节数是否相同，如果相同说明这并非破解导致的问题，而是在没破解前图片就已经不存在了。这也可能是因为亚马逊的新的处理机制的问题，推送到 Kindle 的电子书内容和图片被分离了，从而导致直接从 Kindle 中复制出来的 azw3 文件不包含图片。如遇到此问题，请进入亚马逊后台的 我的内容（用绑定 Kindle 的亚马逊账号登录），找到想要破解的那本本书，点击电子书旁边的【…】按钮，在弹出的菜单中点击“通过电脑下载USB传输”把电子书下载到电脑中，再传到calibre，然后按照本文的方法进行破解即可。</p>
+<ol>
+<li>从亚马逊买的电子书，“通过电脑下载USB传输”，在Kindle里面看不到图书封面图片？</li>
+</ol>
+<p>在亚马逊个人账户里的“管理我的内容和设备”选择一本你买的电子书，然后在书名前面的“…”按钮弹出的对话框里，选择“通过电脑下载USB传输”下载到PC上，再用USB导线连接Kindle，将这本你买的电子书传到Kindle里面去，你会发现，这本书在Kindle目录里丢失了封面图片。但是，如果你直接拿Kindle在线购买，就会有图片。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_10_content.jpg" alt="kindle_dedrm_10_content"></p>
+<p>处理办法是：将“通过电脑下载USB传输”下载到PC上的电子书先添加到calibre里面，然后电脑通过USB导线连接Kindle，再用calibre将刚才添加进来的电子书发送到Kindle，这样，电子书的封面图片就会出现在Kindle里了。</p>
+<p>caliber E-book management</p>
+<p><a href="http://calibre-ebook.com/">http://calibre-ebook.com/</a></p>
+<p>DeDRM Tools 6.5.3</p>
+<p><a href="https://apprenticealf.wordpress.com/">https://apprenticealf.wordpress.com/</a></p>
+<p><a href="https://github.com/apprenticeharper/DeDRM_tools/">https://github.com/apprenticeharper/DeDRM_tools/</a></p>
+<p>本文参考了：</p>
+<p><a href="http://www.jianshu.com/p/d838f593c8ca">http://www.jianshu.com/p/d838f593c8ca</a></p>
+<p><a href="http://www.360doc.com/content/15/0928/09/6168670_501948828.shtml">http://www.360doc.com/content/15/0928/09/6168670_501948828.shtml</a></p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_11_paperwhite.jpg" alt="kindle_dedrm_11_paperwhite"><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_12_paperwhite.jpg" alt="kindle_dedrm_12_paperwhite"></p>
+<p>本文搬运自：<a href="http://www.staycu.com/archives/259">http://www.staycu.com/archives/259</a></p>
+]]></content>
+      <categories>
+        <category>学习过程</category>
+      </categories>
+      <tags>
+        <tag>DRM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用gitee来搭建个人图床</title>
+    <url>/%E4%BD%BF%E7%94%A8gitee%E6%9D%A5%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A.html</url>
+    <content><![CDATA[<h1 id="使用gitee来作为图床"><a href="#使用gitee来作为图床" class="headerlink" title="使用gitee来作为图床"></a>使用gitee来作为图床</h1><p>因为github图床加载速度比较慢，所以我打算使用gitee来进行图床上传，这里我就简单介绍一个还不错的软件picGo</p>
+<h2 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h2><p>这个软件是开源的，开源地址：<a href="https://github.com/Molunerfinn/PicGo">https://github.com/Molunerfinn/PicGo</a></p>
+<h2 id="下载gitee插件"><a href="#下载gitee插件" class="headerlink" title="下载gitee插件"></a>下载gitee插件</h2><p>打开软件搜索gitee上传插件</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWQWR.png" alt="img"></p>
+<h2 id="新建gitee项目"><a href="#新建gitee项目" class="headerlink" title="新建gitee项目"></a>新建gitee项目</h2><p>我们新建一个gitee仓库</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWfCi.png" alt="img"></p>
+<h2 id="插件配置"><a href="#插件配置" class="headerlink" title="插件配置"></a>插件配置</h2><p>先开启gite图床</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWiJo.png" alt="img"></p>
+<p>配置一下gitee</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VW9q2.png" alt="img"></p>
+<h2 id="获取token"><a href="#获取token" class="headerlink" title="获取token"></a>获取token</h2><p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWZZA.png" alt="img"></p>
+<p>这里我们只需要设置projects</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWELX.png" alt="img"></p>
+<p>然后我们提交一下，拷贝我们的token 放入我们图片的配置文件里面</p>
+<h2 id="上传测试"><a href="#上传测试" class="headerlink" title="上传测试"></a>上传测试</h2><p>我们直接拖动图片上传上去即可</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWUo1.png" alt="img"></p>
+<h2 id="查看图片"><a href="#查看图片" class="headerlink" title="查看图片"></a>查看图片</h2><p>点击相册这里就可以看到我们的图片了，可以进行复制和删除操作，总的来说这个软件使用还是非常方便的，当然这个软件还可以使用其他的作为图片，我们这里就只简单介绍gitee图床</p>
+<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWxMl.png" alt="img"></p>
+]]></content>
+      <categories>
+        <category>学习过程</category>
+      </categories>
+      <tags>
+        <tag>图床，gitee</tag>
       </tags>
   </entry>
   <entry>
@@ -308,186 +485,10 @@
       </tags>
   </entry>
   <entry>
-    <title>使用gitee来搭建个人图床</title>
-    <url>/%E4%BD%BF%E7%94%A8gitee%E6%9D%A5%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%9B%BE%E5%BA%8A.html</url>
-    <content><![CDATA[<h1 id="使用gitee来作为图床"><a href="#使用gitee来作为图床" class="headerlink" title="使用gitee来作为图床"></a>使用gitee来作为图床</h1><p>因为github图床加载速度比较慢，所以我打算使用gitee来进行图床上传，这里我就简单介绍一个还不错的软件picGo</p>
-<h2 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h2><p>这个软件是开源的，开源地址：<a href="https://github.com/Molunerfinn/PicGo">https://github.com/Molunerfinn/PicGo</a></p>
-<h2 id="下载gitee插件"><a href="#下载gitee插件" class="headerlink" title="下载gitee插件"></a>下载gitee插件</h2><p>打开软件搜索gitee上传插件</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWQWR.png" alt="img"></p>
-<h2 id="新建gitee项目"><a href="#新建gitee项目" class="headerlink" title="新建gitee项目"></a>新建gitee项目</h2><p>我们新建一个gitee仓库</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWfCi.png" alt="img"></p>
-<h2 id="插件配置"><a href="#插件配置" class="headerlink" title="插件配置"></a>插件配置</h2><p>先开启gite图床</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWiJo.png" alt="img"></p>
-<p>配置一下gitee</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VW9q2.png" alt="img"></p>
-<h2 id="获取token"><a href="#获取token" class="headerlink" title="获取token"></a>获取token</h2><p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWZZA.png" alt="img"></p>
-<p>这里我们只需要设置projects</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWELX.png" alt="img"></p>
-<p>然后我们提交一下，拷贝我们的token 放入我们图片的配置文件里面</p>
-<h2 id="上传测试"><a href="#上传测试" class="headerlink" title="上传测试"></a>上传测试</h2><p>我们直接拖动图片上传上去即可</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWUo1.png" alt="img"></p>
-<h2 id="查看图片"><a href="#查看图片" class="headerlink" title="查看图片"></a>查看图片</h2><p>点击相册这里就可以看到我们的图片了，可以进行复制和删除操作，总的来说这个软件使用还是非常方便的，当然这个软件还可以使用其他的作为图片，我们这里就只简单介绍gitee图床</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://img.xiaoyou66.com/images/2021/01/02/VWxMl.png" alt="img"></p>
-]]></content>
-      <categories>
-        <category>学习过程</category>
-      </categories>
-      <tags>
-        <tag>图床，gitee</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Calibre将电子书繁体转简体</title>
-    <url>/Calibre%E5%B0%86%E7%94%B5%E5%AD%90%E4%B9%A6%E7%B9%81%E4%BD%93%E8%BD%AC%E7%AE%80%E4%BD%93.html</url>
-    <content><![CDATA[<h1 id="Calibre-使用教程之电子书繁体字转简体字"><a href="#Calibre-使用教程之电子书繁体字转简体字" class="headerlink" title="Calibre 使用教程之电子书繁体字转简体字"></a>Calibre 使用教程之电子书繁体字转简体字</h1><p>有没有电子书的简繁体转换方法？如何才能把繁体电子书转换成简体？对于习惯了阅读简体汉字的小伙伴，在遇到繁体版电子书时都会遇到这样的问题，在本文中 Kindle 伴侣就给大家介绍一个比较实用的 Calibre 使用技巧，把电子书中的繁体字转换成你所熟悉的简体字。</p>
-<h2 id="一、下载转换规则词库"><a href="#一、下载转换规则词库" class="headerlink" title="一、下载转换规则词库"></a>一、下载转换规则词库</h2><p>这里的电子书繁体字转简体字的原理是利用了 Calibre 的“查找与替换”功能，此功能可以在转换电子书的同时，根据提供的“替换规则”实时地对电子书内容进行搜索并替换。这里的“替换规则”由“搜索正则表达式”和“替换文本”组成，当然这些替换规则我们不需要手动一个个去输入，已经有网友提供了比较全面的词库规则，可以直接拿来使用。</p>
-<p>这里推荐 HiPDA 论坛的 fengcuo 提供的词库规则。此词库依 Calibre 替换规则对词库进行了校对，增加新字词、繁简对换、修改规则、重排、全词库去重、去繁简同型词组，并修正了由时代进步而呆滞的词组变更。最新版本的词库有 4989 对（含标点）。</p>
-<p>由于简繁存在“一简对多繁”和“一繁对多简”，普通的转换可能会出现丢字（如“後来”不转换）、错换（如“著名”转成“着名”，“甚麽”转成“什麽”）和不转换标点符号的问题。有了专门校正过的词库规则就可以很好的避免这些问题，让行文阅读起来更加流畅。</p>
-<p><strong>词库规则下载</strong>：<a href="https://down.bookfere.com/s/JK7HJexUJu52Dr5">本地下载</a> ｜ <a href="https://pan.baidu.com/s/1qYdQigG">百度网盘</a>（最新版请关注<a href="http://www.hi-pda.com/forum/viewthread.php?tid=1690125">原帖</a>）</p>
-<h2 id="二、繁体转简体操作步骤"><a href="#二、繁体转简体操作步骤" class="headerlink" title="二、繁体转简体操作步骤"></a>二、繁体转简体操作步骤</h2><p>这里以胡适等著的《<a href="http://pan.baidu.com/s/1kTKnj9P">怎样读书</a>》繁体版作为示例演示操作步骤：</p>
-<ol>
-<li>打开 Calibre，把“怎样读书.epub”[<a href="https://bookfere.com/post/162.html#zhu_1">注1]</a>拖放到 Calibre 的书库中；</li>
-<li>右键点击该电子书，在弹出的菜单中将鼠标移动到“<strong>转换书籍 -&gt; 逐个转换</strong>”；</li>
-<li>点击“逐个转换”调出转换窗口后，点击窗口左侧的“<strong>查找与替换</strong>”转到查找替换界面（下图）；</li>
-<li>在窗口的右侧操作区点击【加载】按钮，选取刚才下载的 <strong>.csr</strong> 文件；</li>
-<li>点击【确定】开始转换，等待转换完毕即可得到转换成简体字内容的 mobi 文件[<a href="https://bookfere.com/post/162.html#zhu_2">注2]</a>。</li>
-</ol>
-<p><img src= "/img/loading.gif" data-lazy-src="https://bookfere.com/wp-content/uploads/2015/08/Calibre_T2S_1.png" alt="Calibre_T2S_1"></p>
-<p>繁转简最终效果：</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://bookfere.com/wp-content/uploads/2015/08/T2S_1.png" alt="T2S_1"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://bookfere.com/wp-content/uploads/2015/08/T2S_2.png" alt="T2S_2"></p>
-<h2 id="三、自定义转换规则"><a href="#三、自定义转换规则" class="headerlink" title="三、自定义转换规则"></a>三、自定义转换规则</h2><p>虽然该词库已经够大，基本囊括了各常见领域专有名词，但是由于汉语也在演变，且有少部分人名（如个别古人名）等专有名词还是需要部分繁体显示的，所以很难 100% 完美。如果转换完后感觉有个别字词没有转换或者转换错误，可以按照下面方法添加自定义转换规则到规则列表中。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://bookfere.com/wp-content/uploads/2015/08/Calibre_T2S_2.png" alt="Calibre_T2S_2"></p>
-<p>在“查找与替换”界面依次操作：</p>
-<ol>
-<li>在“<strong>查找正则表达式</strong>”栏目填写目标字词；</li>
-<li>在“<strong>替换文本</strong>”栏目填写替换字词；</li>
-<li>点击【添加】按钮把这条替换规则添加到规则中，点击【保存】。</li>
-</ol>
-<p>以上。希望对有需要的小伙伴有所帮助。如果您对原字库规则做了比较多的修正，可以<a href="http://www.hi-pda.com/forum/viewthread.php?tid=1690125">点击这里</a>向原字库规则提供者反馈，帮助他完善，以便造福更多的 Kindler，谢谢。</p>
-<p>——————</p>
-<p><strong>[注1]</strong> 这里只是用 EPUB 格式电子书举例说明，使用其他 AZW、AZW3、MOBI、TXT 等源格式都可以，只要 Calibre 支持此格式的转换。</p>
-<p><strong>[注2]</strong> 这里只是以转换成 Kindle 支持的 MOBI 格式电子书举例，选择转换成其他 AZW、AZW3 等 Kindle 支持的格式也是可以的。</p>
-<p>——————</p>
-<p>参考资料：<a href="https://bookfere.com/post/162.html">书伴</a></p>
-]]></content>
-      <categories>
-        <category>学习过程</category>
-      </categories>
-      <tags>
-        <tag>calibre</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>亚马逊电子书去DRM</title>
-    <url>/%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%94%B5%E5%AD%90%E4%B9%A6%E5%8E%BBDRM.html</url>
-    <content><![CDATA[<h1 id="如何去除Kindle电子书的DRM版权保护"><a href="#如何去除Kindle电子书的DRM版权保护" class="headerlink" title="如何去除Kindle电子书的DRM版权保护"></a>如何去除Kindle电子书的DRM版权保护</h1><p>在使用Kindle买书的时候，会遇到这样的情况，买来的书个别排版或文字有错误想要修改一下；电子书的封面有问题，想要调换一下；家里有多台Kindle，买来一本书，想全家共享一下，奈何有版权保护，电子书离开你的Kindle就没办法阅读了。那么，这个时候，就需要破解版权保护。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_ppt.jpg" alt="kindle_dedrm_ppt"></p>
-<p>读前请注意：因为解锁去除 Kindle 电子书的 DRM 保护需要用到购买该书的 Kindle 设备的序列号，所以请确保要破解的电子书是通过绑定了你亚马逊账号的 Kindle 所购买的，本方法不适用于别人购买的或从网上下载到的受 DRM 保护的电子书。</p>
-<p>请遵守版权法，不要用于盗版电子书。</p>
-<h2 id="本文导读"><a href="#本文导读" class="headerlink" title="本文导读"></a>本文导读</h2><p>一、电子书的 DRM 保护是什么意思？</p>
-<p>二、为什么要破解 DRM、除去 DRM 保护？</p>
-<p>三、怎么破解 DRM 保护？如何去除 DRM 保护？</p>
-<p>四、移除 Kindle 电子书 DRM 保护详细步骤</p>
-<p>五、相关问答</p>
-<h3 id="一、电子书的-DRM-保护是什么意思？"><a href="#一、电子书的-DRM-保护是什么意思？" class="headerlink" title="一、电子书的 DRM 保护是什么意思？"></a>一、电子书的 DRM 保护是什么意思？</h3><p>DRM，全称 Digital Rights Management（数字版权管理），是随着电子音频视频节目在互联网上的广泛传播而发展起来的一种新技术。出版者利用这些技术保护有数字化内容（例如：软件、音乐、电影），防止数字出版物被非法复制，或者在一定程度上使复制很困难，使得最终用户必须得到授权后才能使用数字媒体。解释听起来很官方，其实在这里我们只需要知道DRM是为了保护电子书版权而使用的一种限制技术就可以了。</p>
-<p>了解更多：</p>
-<p><a href="https://en.wikipedia.org/wiki/Digital_rights_management">https://en.wikipedia.org/wiki/Digital_rights_management</a></p>
-<h3 id="二、为什么要破解-DRM、除去-DRM-保护？"><a href="#二、为什么要破解-DRM、除去-DRM-保护？" class="headerlink" title="二、为什么要破解 DRM、除去 DRM 保护？"></a>二、为什么要破解 DRM、除去 DRM 保护？</h3><p>文章开头我已经讲过了。再先举个例子，我从亚马逊购买了一本电子书，尝试使用 Calibre 软件把这本电子书的 azw 格式文件换成 mobi 格式时，会弹出如下图所示的错误提示，无法转换格式也无法阅读。</p>
-<p>为了保护电子书的版权，亚马逊提供的 azw 或 azw3 格式电子书都是经过 DRM 加密了的，即便是获取到了 azw 或 azw3 格式的电子书文件，也无法直接在其他阅读器或阅读设备上阅读。比如你在亚马逊买到一本电子书，想要共享给自己的亲朋好友，或拷贝到另外一台 Kindle 设备，但由于 DRM 保护，他们的 Kindle 设备却无法阅读。为了突破这种限制，就需要移除 DRM 保护（当然需要声明的是我们的目的不是为了盗版）。</p>
-<h3 id="三、怎么破解-DRM-保护？如何去除-DRM-保护？"><a href="#三、怎么破解-DRM-保护？如何去除-DRM-保护？" class="headerlink" title="三、怎么破解 DRM 保护？如何去除 DRM 保护？"></a>三、怎么破解 DRM 保护？如何去除 DRM 保护？</h3><p>其实移除破解 DRM 保护的操作很简单。在开始破解 DRM 保护之前，我们需要准备好 DRM 移除软件、带 DRM 保护的电子书以及和你的亚马逊账号绑定的 Kindle 设备的序列号。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_01_logo.jpg" alt="kindle_dedrm_01_logo"></p>
-<p>\1. 下载软件 DeDRM tools</p>
-<p>DeDRM Tools (6.5.3)下载：</p>
-<p>在博客网站Apprentice Alf’s Blog：</p>
-<p><a href="https://apprenticealf.wordpress.com/">https://apprenticealf.wordpress.com/</a></p>
-<p>或者直接到GitHub下载：</p>
-<p><a href="https://github.com/apprenticeharper/DeDRM_tools/">https://github.com/apprenticeharper/DeDRM_tools/</a></p>
-<p>将下载来的压缩包 DeDRM_tools-master.zip 解压备用。</p>
-<p>\2. 准备好需要移除 DRM 保护的电子书</p>
-<p>把需要破解的 azw 或 azw3 格式的电子书保存到电脑上，获取方式有以下几种：</p>
-<p>① 第一种获取电子书的方法：从亚马逊云端下载（推荐）</p>
-<p>进入亚马逊后台的 我的内容（用绑定 Kindle 的亚马逊账号登录），找到想要破解的那本书，点击电子书旁边的【…】按钮，在弹出的菜单中点击“通过电脑下载USB传输”，选择你的 Kindle 设备，点击【下载】按钮把电子书下载到电脑中，然后再按照本文的方法进行破解即可。</p>
-<p>② 第二种获取电子书方法：从 Kindle 阅读软件的目录中拷贝。</p>
-<p>这一种方法需要安装 Kindle 桌面客户端软件。如果没有安装请先在下面的列表中选择合适您的系统版本安装。安装完成后打开软件，用你的亚马逊账号登录，然后下载想要破解的电子书，再从相应电子书存放路径中找到它们（文件名类似于“B0080BKP1K_EBOK.azw”这种），请将它们拷贝到如桌面等任意位置备用。</p>
-<p>Kindle for Windows 版：官方去下载</p>
-<p>电子书存放路径：C:\Users\你的用户名\Documents\My Kindle Content</p>
-<p>Kindle for Mac 版：官方去下载</p>
-<p>电子书存放路径：/Users/你的用户名/Library/Application Support/Kindle/My Kindle Content</p>
-<p>③ 第三种获取电子书方法：直接从 Kindle 阅读器中拷贝。</p>
-<p>用USB线将 Kindle 连接到电脑，打开 Kindle 驱动器，在根目录里的 Documents 文件夹内找到 azw 或 azw3 格式的电子书文件将其拷贝出来。这种方法现在不建议使用，因为最新版本固件已经将下载到 Kindle 中的电子书中的图片抽离出去，导致直接复制的电子书缺失图片。</p>
-<p>\3. 记下 Kindle 设备的序列号</p>
-<p>Kindle 的序列号可以在包装盒或保修单上找到，没有包装盒或保修单的话也可以在系统里找到，因为 Kindle 系列阅读器的序列号位置不一样，下面列出了各个版本查看序列号的步骤：</p>
-<p><strong>kindle paperwrite 1 / 2 / 3：</strong></p>
-<p>中文版：首页 — 菜单（右上角的三道杠） — 设置 — 菜单（右上角三道杠） — 设备信息</p>
-<p>英文版：Home — Menu — Settings — Menu — Device Info</p>
-<p>kindle 4 / kindle touch：</p>
-<p>home — menu — setting — 第二页的Device Info里的“Serial Number:”</p>
-<p><strong>Kindle 1 / 2 / 3 / Keyboard / DX / DXG：</strong></p>
-<p>home — menu — settings — 屏幕右下角会显示序列号（未证实）</p>
-<h3 id="四、移除-Kindle-电子书-DRM-保护详细步骤"><a href="#四、移除-Kindle-电子书-DRM-保护详细步骤" class="headerlink" title="四、移除 Kindle 电子书 DRM 保护详细步骤"></a>四、移除 Kindle 电子书 DRM 保护详细步骤</h3><ol>
-<li>首先要下载caliber E-book management</li>
-</ol>
-<p>官方下载地址：<a href="http://calibre-ebook.com/">http://calibre-ebook.com/</a></p>
-<p>也可以在百度搜索caliber，百度软件中心也有此款软件下载。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_00_calibrefeature.jpg" alt="kindle_dedrm_00_calibrefeature"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_00_calibre_word.jpg" alt="kindle_dedrm_00_calibre_word"></p>
-<p>\2. 安装caliber E-book management</p>
-<p>Windows操作系统下，下载回来的安装文件大概是这样的名称“calibre-2.82.0.msi”，和安装其他软件一样，双击安装，下一步，下一步…，安装好后，可以设置你电脑里Kindle图书备份存放的位置，caliber会自动将图书导入软件，并展示在界面中央。</p>
-<p>安装过程里，有一步是“选择书库位置”，这一步要设置好了，当你向caliber添加书籍，添加的书籍会自动复制到这个文件夹里，并且当你去除DRM保护，转换图书的时候，破解后的图书也会复制到这个“书库”文件夹里。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_02_library.jpg" alt="kindle_dedrm_02_library"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_03_calibre.jpg" alt="kindle_dedrm_03_calibre"></p>
-<p>\3. 点击calibre界面上面一排图标菜单的最右边的“首选项”按钮。弹出“首选项”工具对话框。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_04_tools.jpg" alt="kindle_dedrm_04_tools"></p>
-<p>\4. 在“首选项”工具对话框最下面“高级选项”一行，点击首个“插件”按钮。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_05_plugin.jpg" alt="kindle_dedrm_05_plugin"></p>
-<p>\5. 点击“插件”对话框右下角的“从文件加载插件”按钮。从刚才下载回来并已经解压备用的DeDRM_tools-master.zip ，定位到DeDRM_tools-master\DeDRM_calibre_plugin文件夹，选择其中的DeDRM_tools-master.zip（无需解压），将DeDRM插件导入calibre。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_06_chooseplugin.jpg" alt="kindle_dedrm_06_chooseplugin"></p>
-<p>\6. DeDRM插件导入后，在calibre的“插件”对话框中，选择第三排的“文件类型 插件”，将其展开，找到第二条的DeDRM(6.5.3)，双击，弹出小对话框“自定义DeDRM”。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_07_custom.jpg" alt="kindle_dedrm_07_custom"></p>
-<p>\7. 小对话框“自定义DeDRM”里，选择第一个按钮“eInk kindle ebooks”在弹出的DeDRM 6.5.3：Manage EInk Kindle Serial Numbers对话框右侧，点击绿色“+”按钮，弹出DeDRM 6.5.3：Add New EInk Kindle Serial Number对话框，将你的Kindle序列号填入其中。当然，这两步可以反复操作，以便加入更多序列号。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_08_serialnumbers_v2.jpg" alt="kindle_dedrm_08_serialnumbers"></p>
-<ol>
-<li>设置完毕后，关闭以上一系列弹出的对话框，返回到刚才的calibre主界面。查看刚才导入的电子书目录，选择想要破解DRM的电子书，点击calibre界面上面一排图标菜单的左边第三个“转换书籍”按钮。弹出“转换+你的电子书名称”对话框。</li>
-</ol>
-<p>在右上角的“输出格式”下拉菜单里选择你想要的电子书格式，一般原格式是什么，转换后的格式也是什么就行了。最后，点击右下角绿色的的“√确定”按钮。此界面关闭，书籍去DRM转换开始，在calibre主界面右下角“任务”处会看到正在转换的任务数量和旋转的圆圈，大概半分钟后，任务数量变为0，说明转换成功，到你设置输出的文件夹里，找到转换后的图书，就可以了。（转换后的图书，会出现在你安装alibre软件时，设置的“书库”位置文件夹里）</p>
-<p>转换后的去除了DRM保护的电子书，会被保存在之前设定的“书库”文件夹里，从这个文件夹里，我们会发现四个文件，有一个封面图片，有一个metadata.opf文件，还有两个电子书，其中一个是original_azw3扩展名的，是原来未被破解的原始导入图书，没有此字样的是破解后的图书。由于是国外软件，书库里面是以作者名字组织文件夹的，中文名就是拼音、中文书籍也是拼音、中文电子书名字也是拼音。</p>
-<p>我这本《余罪8》在calibre书库里，是这个四个文件，其中红色字的是去除了DRM的电子书：</p>
-<p>cover.jpg</p>
-<p>metadata.opf</p>
-<p>Yu Zui _Wo De Xing Zhen Bi Ji 8 - Chang Shu Xin.azw3</p>
-<p>Yu Zui _Wo De Xing Zhen Bi Ji 8 - Chang Shu Xin.original_azw3</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_09_convert.jpg" alt="kindle_dedrm_09_convert"></p>
-<h3 id="五、相关问答"><a href="#五、相关问答" class="headerlink" title="五、相关问答"></a>五、相关问答</h3><p>1、为什么从 Kindle 复制的电子书破解后不显示图片了？</p>
-<p>请检查一下未破解前的 azw3 文件和破解后的 azw3 文件的字节数是否相同，如果相同说明这并非破解导致的问题，而是在没破解前图片就已经不存在了。这也可能是因为亚马逊的新的处理机制的问题，推送到 Kindle 的电子书内容和图片被分离了，从而导致直接从 Kindle 中复制出来的 azw3 文件不包含图片。如遇到此问题，请进入亚马逊后台的 我的内容（用绑定 Kindle 的亚马逊账号登录），找到想要破解的那本本书，点击电子书旁边的【…】按钮，在弹出的菜单中点击“通过电脑下载USB传输”把电子书下载到电脑中，再传到calibre，然后按照本文的方法进行破解即可。</p>
-<ol>
-<li>从亚马逊买的电子书，“通过电脑下载USB传输”，在Kindle里面看不到图书封面图片？</li>
-</ol>
-<p>在亚马逊个人账户里的“管理我的内容和设备”选择一本你买的电子书，然后在书名前面的“…”按钮弹出的对话框里，选择“通过电脑下载USB传输”下载到PC上，再用USB导线连接Kindle，将这本你买的电子书传到Kindle里面去，你会发现，这本书在Kindle目录里丢失了封面图片。但是，如果你直接拿Kindle在线购买，就会有图片。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_10_content.jpg" alt="kindle_dedrm_10_content"></p>
-<p>处理办法是：将“通过电脑下载USB传输”下载到PC上的电子书先添加到calibre里面，然后电脑通过USB导线连接Kindle，再用calibre将刚才添加进来的电子书发送到Kindle，这样，电子书的封面图片就会出现在Kindle里了。</p>
-<p>caliber E-book management</p>
-<p><a href="http://calibre-ebook.com/">http://calibre-ebook.com/</a></p>
-<p>DeDRM Tools 6.5.3</p>
-<p><a href="https://apprenticealf.wordpress.com/">https://apprenticealf.wordpress.com/</a></p>
-<p><a href="https://github.com/apprenticeharper/DeDRM_tools/">https://github.com/apprenticeharper/DeDRM_tools/</a></p>
-<p>本文参考了：</p>
-<p><a href="http://www.jianshu.com/p/d838f593c8ca">http://www.jianshu.com/p/d838f593c8ca</a></p>
-<p><a href="http://www.360doc.com/content/15/0928/09/6168670_501948828.shtml">http://www.360doc.com/content/15/0928/09/6168670_501948828.shtml</a></p>
-<p><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_11_paperwhite.jpg" alt="kindle_dedrm_11_paperwhite"><img src= "/img/loading.gif" data-lazy-src="http://stay-10044332.file.myqcloud.com/tech/00054/kindle_dedrm_12_paperwhite.jpg" alt="kindle_dedrm_12_paperwhite"></p>
-<p>本文搬运自：<a href="http://www.staycu.com/archives/259">http://www.staycu.com/archives/259</a></p>
-]]></content>
-      <categories>
-        <category>学习过程</category>
-      </categories>
-      <tags>
-        <tag>DRM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>夏之锁</title>
     <url>/%E5%A4%8F%E4%B9%8B%E9%94%81.html</url>
-    <content><![CDATA[<p>夏之锁​<br>第一卷 <br>第一章 兽出笼 <br>　　我真的……做了这种事？这不是梦……</p>
+    <content><![CDATA[<p>夏之锁​</p>
+<h1 id="第一卷"><a href="#第一卷" class="headerlink" title="第一卷"></a>第一卷</h1><h2 id="第一章-兽出笼"><a href="#第一章-兽出笼" class="headerlink" title="第一章 兽出笼"></a>第一章 兽出笼</h2><p>　　我真的……做了这种事？这不是梦……</p>
 <p>　　喘着粗气看着不省人事的少女躺在我面前的沙发上，我仍旧有些沉浸在不可思议的错觉里。</p>
 <p>　　是的，我成了货真价实的绑架犯，而人质就是我面前的娇小女生，同时也是我两年未见的高中同学。</p>
 <p>　　事情要从两个星期前说起……</p>
@@ -539,7 +540,7 @@
 <p>　　她不明白刚刚还有说有笑的我，怎么突然就变了脸色，还以为是自己说错了话，有些疑惑的偷偷瞄着我。殊不知，她越是这副天真面孔，我就越是火大。</p>
 <p>　　车里的气氛有些诡异，我默默计算着时间，想着药效应该要到了。</p>
 <p>　　果然，她努力尝试睁开眼睛，可身体却不由自主软倒在座位上，勒紧的安全带让她不至于动歪西倒。这安眠药比我自己吃的时候起效要快点啊……毕竟她是那么较小的女生。我掉转车头，驶向了郊区，却并不敢再看她一眼，生怕她突然醒来……</p>
-<p>第二章 如愿以偿？ <br>　　这片还算茂密的树林就在我家的不远处，因为某个开发商自己的恶趣味，幸免于电锯刀劈。“有这片树林才算是有品味嘛!”这位开发商在酒后说着如此的发笑的话。</p>
+<h2 id="第二章-如愿以偿？"><a href="#第二章-如愿以偿？" class="headerlink" title="第二章 如愿以偿？"></a>第二章 如愿以偿？</h2><p>　　这片还算茂密的树林就在我家的不远处，因为某个开发商自己的恶趣味，幸免于电锯刀劈。“有这片树林才算是有品味嘛!”这位开发商在酒后说着如此的发笑的话。</p>
 <p>　　至于我是怎么知道的，那个和开发商一起喝酒的男人就是我的父亲。</p>
 <p>　　行驶到无法开车的山路，我停下车子，把在副驾驶位置上睡死的少女背起，一步一步朝着目的地走去。</p>
 <p>　　即使这条路我已经不知道走过多少次，即使背上的少女轻的不像话，我仍是万分小心，生怕讲两个人都交代在这里。</p>
@@ -576,7 +577,7 @@
 <p>　　而她并不准备理睬我的“好意”，仍是楞楞的看着床单。</p>
 <p>　　“避孕药，你也不想自己怀孕吧？”</p>
 <p>　　听到这近乎魔鬼的话语，她再次留下眼泪，不过这次，她却伸出颤抖的手，接过了我手中的药片。</p>
-<p>第三章 精灵 <br>　　我会后悔吗，大概不会，但即使是这样，面对那个为了我而吃下药片的女孩我心中还有些微妙的感觉。</p>
+<h2 id="第三章-精灵"><a href="#第三章-精灵" class="headerlink" title="第三章 精灵"></a>第三章 精灵</h2><p>　　我会后悔吗，大概不会，但即使是这样，面对那个为了我而吃下药片的女孩我心中还有些微妙的感觉。</p>
 <p>　　是愧疚？还是莫名的兴奋？或许是二者兼而有之吧，但是……但是她已经是我的了，所以我想，只要让她吃好喝好就是对她最大的补偿了吧。</p>
 <p>　　还记得我曾经偷听父母谈话，他说如果哪天我做了伤害谁家姑娘的事情，就直接我送进去唱铁窗泪。当时我就想跳出来说您儿子老实巴交的，吃了豹子胆也不敢这么干。</p>
 <p>　　如今么……反正能亲手把我送进去的人已经不在了，我也不必再束缚自己了。</p>
@@ -617,7 +618,7 @@
 <p>　　提着食物奔向小屋时，我心中愈发忐忑不安，心中想象着最糟糕的场景，不过当我掏出钥匙打开铁门后，悬着的心终于放下……</p>
 <p>　　熟睡的少女接受晨间阳光的洗礼，光芒包裹她的身上，让她身上有了一种梦幻的色泽。额角垂落的一缕发丝附在晶莹剔透的润唇之上，精致的鼻头微微攒动，脸蛋白皙的光泽借着晨光的照射泛出迷人的红晕，而她的眼眸却显得格外醒目——红肿还未消退，却更让人心疼……我看到了精灵。</p>
 <p>　　只属于我的精灵。</p>
-<p>第四章 药 <br>　　我不忍心打扰少女的安眠， 轻手轻脚关上门，把做好的早饭放好，就和昨天一样躺在她身边歪头看着她。</p>
+<h2 id="第四章-药"><a href="#第四章-药" class="headerlink" title="第四章 药"></a>第四章 药</h2><p>　　我不忍心打扰少女的安眠， 轻手轻脚关上门，把做好的早饭放好，就和昨天一样躺在她身边歪头看着她。</p>
 <p>　　没过多久，少女悠悠转醒，慢慢睁开眼睛，发现我躺在她身边时，身体不由自主向后退了一下。</p>
 <p>　　她这是在害怕我。毕竟我对她做了那么过火的事，不害怕才是不正常吧，不过我要的可不是这种害怕。</p>
 <p>　　我也不说话，就这么微笑着看着她，和她充满敌意的眼神相对。</p>
@@ -655,7 +656,7 @@
 <p>　　而开锁之后我发现，虽然只有短短一天，她的小腿上已经有隐隐的红印，似乎马上要渗出血来……我不禁一阵心疼，责怪自己不应该想出这个用锁链的馊主意。轻抚她受伤的地方，我低头说道：“把衣服换上吧。”</p>
 <p>　　她不再有抗拒，慢慢掀起自己的上衣，见我还在盯着她看，眼中流露出哀求的意味，见我仍不为所动，她只好自己转过头去，脱下衣服，褪下裤子，在我刚刚看清她的内衣款式，还没来得及仔细研究一番，便快速穿上我给她买的那套衣服。</p>
 <p>　　嗯，很单纯的纯白色呢。</p>
-<p>第五章 好梦 <br>　　好美，好……性感。看着眼前气质突变的女孩，我几乎要留下鼻血。薄薄的露肩体恤让我能清晰看到她的精致锁骨，过于讲求透气的面料让我能隐约看到她包裹两处山峰的胸罩和雪白的腹部。下身的短裙，即使她伸手往下拉，也因为过于节省的布料而让我看到她臀部凸起的曲线……明明是那么瘦的女孩，白嫩的大腿却能有弹弹的肉感……太犯规了！</p>
+<h2 id="第五章-好梦"><a href="#第五章-好梦" class="headerlink" title="第五章 好梦"></a>第五章 好梦</h2><p>　　好美，好……性感。看着眼前气质突变的女孩，我几乎要留下鼻血。薄薄的露肩体恤让我能清晰看到她的精致锁骨，过于讲求透气的面料让我能隐约看到她包裹两处山峰的胸罩和雪白的腹部。下身的短裙，即使她伸手往下拉，也因为过于节省的布料而让我看到她臀部凸起的曲线……明明是那么瘦的女孩，白嫩的大腿却能有弹弹的肉感……太犯规了！</p>
 <p>　　我再也忍不住了，年轻的我正是欲火旺盛的时候，即使是上午刚刚有过宣泄，面对如此诱惑的少女，我也无法拒绝。</p>
 <p>　　把她扑倒在床上，刚刚要压住她的我却发现，她不再像上午那样挣扎尖叫，只是身体轻微颤抖，双手却不再抗拒我在她身上的动作……难道真的，愿意乖乖配合我了吗？</p>
 <p>　　我欣喜若狂，疯狂吻向她的脸颊和双唇，起初她并不配合，不停闪躲脑袋显示自己的不愿，然而在我不断舔弄之下，她终于放弃了最后的抵抗，任由我在她的脸上和唇角留下口水，即使是紧闭的唇齿也放松下来，任由我不断索取。</p>
@@ -688,7 +689,7 @@
 <p>　　我鼻子一酸，眼眶里的泪水抑制不住流淌下来。</p>
 <p>　　不想让她看到我这幅模样，别过头去，却看到我给她准备的滋补粥，早已打翻在地，香气四溢。
 　　</p>
-<p>第六章 补偿 <br>　　等到我把打翻的早饭和砸伤我的锁链一起处理了之后，再次回到小屋，女孩已经又变成了最开始的样子，一言不发，只是看着床单。</p>
+<h2 id="第六章-补偿"><a href="#第六章-补偿" class="headerlink" title="第六章 补偿"></a>第六章 补偿</h2><p>　　等到我把打翻的早饭和砸伤我的锁链一起处理了之后，再次回到小屋，女孩已经又变成了最开始的样子，一言不发，只是看着床单。</p>
 <p>　　原来之前的顺服真的都是装出来的啊……我心中一阵难过，上前强硬的搂住她，贴在她耳边说到：“以后别这样了好吗，我会很伤心的。”</p>
 <p>　　“你伤心？”虽然我说的都是真心话，但她并不这样想，只是冷冷的回了一句。</p>
 <p>　　见她意料之中的不为所动，我拿出早已经准备好的说辞：“事情已经这样了，木已成舟，我还能怎么办呢？即使我想后悔也来不及了。”</p>
@@ -721,7 +722,7 @@
 <p>　　她想让我出去一个人洗，但那里扭的过我，只好被迫让我在一旁欣赏了一副美人出浴图，由于澡盆本身不大，我全程都可以趴在盆边透过清澈的水隐隐约约看到美丽的风景。时不时绕到她身后轻抚她光滑的脊背和肩膀，都让她抱着胸一动不敢动。</p>
 <p>　　只可惜我这两天已经发泄够了，便没有做出什么太过分的事。等她洗完我就给她拿来之前买过的换洗衣服，背过头让她穿上，当然是为了照顾她最后的羞耻心，不然她全身上下我都摸过了，又怎么会羞得不敢看她穿衣服。</p>
 <p>　　不过之前我不清楚她的胸部尺寸，自然是没有给她买胸衣的……这也就是说，我可以随时只隔着一层轻薄的衣物看到她隐约可见的小豆豆。</p>
-<p>第七章 经济危机 <br>　　安顿好小屋里的少女之后，我驾车前往附近的超市，自从多了一个人吃饭，我要考虑买的东西几乎是爆炸式的增加。</p>
+<h2 id="第七章-经济危机"><a href="#第七章-经济危机" class="headerlink" title="第七章 经济危机"></a>第七章 经济危机</h2><p>　　安顿好小屋里的少女之后，我驾车前往附近的超市，自从多了一个人吃饭，我要考虑买的东西几乎是爆炸式的增加。</p>
 <p>　　当然，最重要的是买避孕套。</p>
 <p>　　怀着有些尴尬和不安的心情结账，收银员看到套套也并没有露出什么鄙夷奇怪的表情，这让我多少松了口气。然而当我刷卡结账的时候，收银员却告诉我余额不足了……</p>
 <p>　　我慌乱拿出另外的银行卡才完成支付，走出超市坐到车上后，我一阵头疼，这老爸留给我的钱可并不够我这样“挥霍”呀……</p>
@@ -760,7 +761,7 @@
 <p>　　“那个，你能帮我个忙吗。”</p>
 <p>　　她刚一说出口，我的心就沉到了谷底。果然，她还是有求于我，才会做这种在我看来都十分不可思议的事，难道说她还想让我放她走吗，还是说……</p>
 <p>　　“我需要钱，很大一笔钱。”</p>
-<p>第八章 誓言 <br>　　该说庆幸还是什么呢，她并没有让我放了她，这也省去我一番口舌……不过她要钱干嘛，现在这种情况下她有花钱的地方吗。</p>
+<h2 id="第八章-誓言"><a href="#第八章-誓言" class="headerlink" title="第八章 誓言"></a>第八章 誓言</h2><p>　　该说庆幸还是什么呢，她并没有让我放了她，这也省去我一番口舌……不过她要钱干嘛，现在这种情况下她有花钱的地方吗。</p>
 <p>　　“不是给我自己要的，是我家人要用的。”似乎是看出了我的疑惑，她走近几步向我解释。</p>
 <p>　　我思考一下，决定还是听听她的解释。于是示意她接着说。</p>
 <p>　　“我外婆生病了，需要换肾，家里只有我母亲一个人挣钱……根本没法负担手术费。”</p>
@@ -807,7 +808,7 @@
 <p>　　“你对我来说，比全世界的财富加起来还重要。”</p>
 <p>　　而她并没有什么反应，只是眨了眨眼睛，看着我越来越近的嘴唇，她认命似的闭上了眼睛。</p>
 <p>　　“好好休息，我去给你准备早餐。”在她额头上轻轻吻了一下，转身离去。</p>
-<p>第九章 所谓慈善 <br>　　事实上，即使我并没有充足的现金提供给她的外婆做手术，我也依然有信心完成对她的承诺。</p>
+<h2 id="第九章-所谓慈善"><a href="#第九章-所谓慈善" class="headerlink" title="第九章 所谓慈善"></a>第九章 所谓慈善</h2><p>　　事实上，即使我并没有充足的现金提供给她的外婆做手术，我也依然有信心完成对她的承诺。</p>
 <p>　　而这一切的关键，就是父亲留给我的手机，或者准确的说，是手机里的电话号码。</p>
 <p>　　即使是他临走前并没有来得及告诉我，我也早就知道他有两个手机，一个用来应付日常的商务工作，另一个，则是和私交甚密的亲朋保持联系的重要工具。</p>
 <p>　　而我手里拿着的正是后者。</p>
@@ -855,7 +856,7 @@
 <p>　　出于好奇，我推开她的房间，除了粉红色的被子，屋子里看不到一点女孩子的痕迹，而床头的一个盒子引起了我的注意。</p>
 <p>　　那是一把口琴。</p>
 <p>　　</p>
-<p>第十章 最丢人 <br>　　手术进展比我预料的要快很多，医生在款项到账的第二天就做好了手术的准备，肾源也在当天就联系好了。我不由得感叹老人家的幸运，有如此孝顺的女儿和外孙女。</p>
+<h2 id="第十章-最丢人"><a href="#第十章-最丢人" class="headerlink" title="第十章 最丢人"></a>第十章 最丢人</h2><p>　　手术进展比我预料的要快很多，医生在款项到账的第二天就做好了手术的准备，肾源也在当天就联系好了。我不由得感叹老人家的幸运，有如此孝顺的女儿和外孙女。</p>
 <p>　　在手术的前一天，慈善基金会的工作人员拿着相机，为她的母亲和外婆拍了一张病床前的合照，打印了两份。一份交给她的母亲，另一份我则要了过来。</p>
 <p>　　在手术期间，我陪同在手术室前，名义上是陪着病人家属，可实际上我比谁都要紧张。不仅因为在手术台上的老人是她的外婆，更因为我自己也发自内心的希望那位慈祥的老人能度过难关。</p>
 <p>　　我的异常就连坐在一旁的女士也察觉到了，她拍拍我的肩膀，并没有说什么。我知道自己状态不对，借口上厕所逃掉了。</p>
@@ -895,7 +896,7 @@
 <p>　　“你说不说？你不说我就……”我慢慢又贴近她的小脸威胁着。</p>
 <p>　　她怕我乱来，只好用极复杂的语气低声说出：</p>
 <p>　　“……老公。”</p>
-<p>第十一章 禽兽不如 <br>　　她这一声让我极为受用，沉迷在美好的想象中的我，不由自主将本就在我怀里的她搂的更紧了。</p>
+<h2 id="第十一章-禽兽不如"><a href="#第十一章-禽兽不如" class="headerlink" title="第十一章 禽兽不如"></a>第十一章 禽兽不如</h2><p>　　她这一声让我极为受用，沉迷在美好的想象中的我，不由自主将本就在我怀里的她搂的更紧了。</p>
 <p>　　“放开，你弄疼我了。”她的挣扎却是有让我想起了另外一件东西。</p>
 <p>　　我从口袋里掏出了一个盒子，打开盒子将里面长长的金属条取出。</p>
 <p>　　“你怎么会有这个？！”她的反应大的出乎我的意料，那正是我从她家里拿出来的口琴。看她的样子，似乎如果我不解释清楚就要吃了我一样。</p>
@@ -927,9 +928,7 @@
 <p>　　……</p>
 <p>　　我听出了她语气里的绝望和悲伤，心中一紧，只好匆匆就挂断了电话。</p>
 <p>　　如果说警察一直在找她的话，那迟早有一天要找到我的吧，而那一天什么时候会到来呢。</p>
-<h2 id=""><a href="#" class="headerlink" title="　　"></a>　　</h2><pre><code>这之后的几天里，一切都风平浪静。根据阿姨的说法，外婆术后恢复得很好，这对这个年龄的老人来说实属难得，我也时不时打着张叔慈善基金的名义去看望她们，阿姨虽然有些诧异我的过度热情，可也并没有表现出怀疑，只是经常夸我为人善良。
-</code></pre>
-<p>　　这让我都不太好意思反驳。</p>
+<p>　　这之后的几天里，一切都风平浪静。根据阿姨的说法，外婆术后恢复得很好，这对这个年龄的老人来说实属难得，我也时不时打着张叔慈善基金的名义去看望她们，阿姨虽然有些诧异我的过度热情，可也并没有表现出怀疑，只是经常夸我为人善良。<br>　　<br>　　这让我都不太好意思反驳。</p>
 <p>　　而她那边……我则是一筹莫展。</p>
 <p>　　自从上次她自杀未遂之后，她都不让我再碰她，而我再也不敢用强，生怕她对我的愤怒到了极限再次想不开，所以每次都只能拥着她强吻她可爱的嘴唇——只有这个她不会反抗太过激烈。</p>
 <p>　　最让我感到离奇的是，她居然要求我给她换一些书看……难道屋里的这些黄色漫画她都看完了？</p>
@@ -943,7 +942,7 @@
 <p>　　她的外婆治好了病，母亲也不用为了赚钱和照顾病人身心俱疲。而我也不用忍受一个人生活的孤寂冷清。她也不用大热天出去做家教，为家人分忧。</p>
 <p>　　或许唯一不完美的就是，她失去了自由。</p>
 <p>　　只要我用心去弥补就好了吧。</p>
-<p>第一十二章 往事 <br>　　平静的生活总是很容易被打破，然后朝着不可知的方向发展。</p>
+<h2 id="第一十二章-往事"><a href="#第一十二章-往事" class="headerlink" title="第一十二章 往事"></a>第一十二章 往事</h2><p>　　平静的生活总是很容易被打破，然后朝着不可知的方向发展。</p>
 <p>　　我又在一个很普通的下午，躺在了她腿上，气温凉爽，呼吸着混杂着她体香的清新空气，感受着少女美腿的柔软触感，我几乎要睡着了，如果不是她的书压在我脸上不让我继续欣赏她胸前的山峰的话。</p>
 <p>　　“喂，你一天到晚什么事都没有吗。”隔着书本，她的问题传来。</p>
 <p>　　“我能有什么事呢，既没有朋友，高考也过去了，生活费还够用，除了每天和大美女一起玩就没事了呀。”我那捏着恶心的腔调说道。</p>
@@ -986,7 +985,7 @@
 <p>　　“啊……嗯……”她似乎也感受到了快乐，在我进入她的身体的时候娇喘出声。这是我从来不曾想过的。</p>
 <p>　　随着我一抽一插，她的娇吟声也慢慢放开，听的我心里冒火，而她似乎也感到羞耻，全程闭着眼，脸红到耳根了。</p>
 <p>　　她赤裸的娇躯毫无遮挡，让我能轻易从头到脚爱抚，亲吻。我一边在她下身抽动，一边紧紧拥着她，舔舐亲吻她的每一寸肌肤，而她抱着我的头，让我能更贴近她的香味。</p>
-<p>第一十三章 存在的意义 <br>　　我从未像现在这般舒服，不仅是她火热的肉体满足了肉欲，更是她迎合的动作、口中的轻吟和满脸的潮红让我的灵魂似乎都在享受欢愉。</p>
+<h2 id="第一十三章-存在的意义"><a href="#第一十三章-存在的意义" class="headerlink" title="第一十三章 存在的意义"></a>第一十三章 存在的意义</h2><p>　　我从未像现在这般舒服，不仅是她火热的肉体满足了肉欲，更是她迎合的动作、口中的轻吟和满脸的潮红让我的灵魂似乎都在享受欢愉。</p>
 <p>　　终于到了顶点，我轻轻叫出声，加快了抽动的步伐，手掌在她富有弹性的臀部上下抚摸，最后抽出来，将白色炼乳般的精华发射在她的乳房和小腹上。</p>
 <p>　　良久，她才从满脸羞红中回过神来，抽出纸巾将身上的污浊擦拭干净，然而还没等她说话，我就再一次压向她光溜溜的身体，紧紧抱住她，将她的嫩乳在我的胸膛上挤压，同时继续探出舌头亲吻。</p>
 <p>　　她反应过来，也抱住我的腰，配合的伸出丁香小舌，与我的舌头交缠在一起。</p>
@@ -1019,7 +1018,7 @@
 <p>　　然而我没有立刻离开，靠着墙壁坐着，不一会，屋里传来了轻轻的抽泣声……</p>
 <p>　　抹黑下山我早已轻车熟路，我在路上不停回想起刚刚她被我揭穿时的沉默和死水一样的眼神，虽然用我玩笑话掩盖了当时的尴尬情景，但我不认为她会放弃逃离我的掌握，一旦有机会她肯定会跑的。</p>
 <p>　　我绝对不会让这种事情发生。如果没有了她的陪伴，我的存在将毫无意义。</p>
-<p>第一十四章 关于她 <br>　　叮铃铃，叮铃铃。</p>
+<h2 id="第一十四章-关于她"><a href="#第一十四章-关于她" class="headerlink" title="第一十四章 关于她"></a>第一十四章 关于她</h2><p>　　叮铃铃，叮铃铃。</p>
 <p>　　床头的闹钟如约响起，我没有丝毫迟疑就起身关掉闹钟，到卫生间洗漱完毕，在厨房开启了忙碌的一天。</p>
 <p>　　这个鸡蛋不新鲜了，丢掉。</p>
 <p>　　面包和酱油快吃完了，记得下午去超市买。</p>
@@ -1061,7 +1060,7 @@
 <p>　　“后来我才知道，外婆患上了重病，他不想带着累赘，把我们仨赶了出来，只说钱和房子都是他自己挣的。”</p>
 <p>　　“我不明白，明明治病并不需要倾家荡产，只是可能需要咬牙坚持一段时间罢了。”</p>
 <p>　　“难道亲人的命还不如一堆纸吗？”</p>
-<p>第一十五章 离开 <br>　　点点泪珠从她脸颊滚落到我脸上，她推开我想为她擦泪的手，自己擦了擦泪之后红着眼睛继续说着：</p>
+<h2 id="第一十五章-离开"><a href="#第一十五章-离开" class="headerlink" title="第一十五章 离开"></a>第一十五章 离开</h2><p>　　点点泪珠从她脸颊滚落到我脸上，她推开我想为她擦泪的手，自己擦了擦泪之后红着眼睛继续说着：</p>
 <p>　　“从那以后，我们一家的日子就没那么容易了，刚开始妈妈用积蓄还能勉强撑着，向学校借了一个小杂物间住下来。可越到后来，所有能借钱的人都借遍了，同事，亲戚，朋友，他们也都有难处，不可能供着我们。”我有些不知道说什么好，只好主动问她：</p>
 <p>　　“我们在同一班的那年，你们家……怎么样？”</p>
 <p>　　“还能怎么样呢，妈妈找朋友好说歹说才寻到一间便宜的住处，也就是我们现在的家，她除了当老师还给别人当音乐家教，最多的时候还干过家政。”</p>
@@ -1111,7 +1110,7 @@
 <p>　　“……”</p>
 <p>　　“你之后也要上大学吧，上大学之后会碰到很多比我优秀的女孩子的，你长的这么帅一定可以追到的。”</p>
 <p>　　“所以呢？你想离开我？”</p>
-<p>第一十六章 空洞 <br>　　“所以呢？你想离开我？”</p>
+<h2 id="第一十六章-空洞"><a href="#第一十六章-空洞" class="headerlink" title="第一十六章 空洞"></a>第一十六章 空洞</h2><p>　　“所以呢？你想离开我？”</p>
 <p>　　“……是我之前得罪过你，所以你现在要惩罚我是吗？”</p>
 <p>　　“没有，之前咱俩甚至都没说过几句话。”我很冷静的回答她。</p>
 <p>　　“那你让我走好吗？我求你了。”说出这句话她整个人都在颤抖。</p>
@@ -1166,7 +1165,7 @@
 <p>　　虽然再一次用死皮赖脸的方法混了过去，但我能感觉到，她这次，恐怕是真的有些绝望了……</p>
 <p>　　只见她眼睛看着天花板，却已经失去了焦距，就连我时不时的骚扰动作都懒得理会了。</p>
 <p>　　如果是这样的话，即使是有她的承诺，我也不敢离开她太久啊……</p>
-<p>第一十七章 想入非非 <br>　　要想个办法让她重新振作起来才行啊，好吃的好玩的估计是不太可能了，她又不是小孩子。她现在最想要的是什么？自由，但我不能给她。</p>
+<h2 id="第一十七章-想入非非"><a href="#第一十七章-想入非非" class="headerlink" title="第一十七章 想入非非"></a>第一十七章 想入非非</h2><p>　　要想个办法让她重新振作起来才行啊，好吃的好玩的估计是不太可能了，她又不是小孩子。她现在最想要的是什么？自由，但我不能给她。</p>
 <p>　　应该是家人吧，但我又不可能把她带到她家人面前……看来以后可以多去医院看看，和她母亲外婆再熟识一些，这样从她们口中问到一些话也可以回来复述给她。</p>
 <p>　　如果，让她把我当做家人呢……应该是不可能的吧，她估计已经恨我恨到骨子里了。</p>
 <p>　　那么就用其他的事来让她开心一下吧。比如音乐和游戏之类的……希望她会喜欢玩游戏。</p>
@@ -1198,7 +1197,7 @@
 <p>　　她的脸上尽是憔悴和惶恐不安的神色，眼珠里满是血丝，早已干涸的泪痕让她的精致小脸很是狼狈，小嘴一张一合，却怎么也说不出话。到底是经历了什么才会让这个坚强的女孩露出这样的表情？</p>
 <p>　　看到她这幅恐惧的样子，我都快要吓死了，再也顾不得其他，捧住她的脸看着她的眼睛，用一种我自己都不熟悉的哭腔问道：“你怎么了，别吓我，出什么事了！”</p>
 <p>　　她努力试着发出声音，声音因为哭泣和恐惧显得颤抖且沙哑：“有……有狼！”</p>
-<p>第一十八章 搬 <br>　　“有……有狼！”</p>
+<h2 id="第一十八章-搬"><a href="#第一十八章-搬" class="headerlink" title="第一十八章 搬"></a>第一十八章 搬</h2><p>　　“有……有狼！”</p>
 <p>　　听到她颤抖的话语，我的思绪停滞了。</p>
 <p>　　狼？什么狼？色狼？我吗？</p>
 <p>　　僵了好一会我才想到之前，为了吓唬她曾对她说这片树林有狼，可这……怎么可能？别说狼这种凶猛的动物，就是狐狸兔子树林里也没几个了吧。</p>
@@ -1234,7 +1233,7 @@
 <p>　　“饿不饿？要吃饭吗？我带了好吃的。”我炫耀似的在她面前晃了晃精美的食物包装。</p>
 <p>　　慢慢坐起身，她看了看周身陌生的环境问道：“这是哪？”</p>
 <p>　　“这里是我家，也是你以后和我一起生活的地方。”</p>
-<p>第一十九章 形式 <br>　　“你……你家？”她似乎有些诧异，可并没有激动或者生气的样子。</p>
+<h2 id="第一十九章-形式"><a href="#第一十九章-形式" class="headerlink" title="第一十九章 形式"></a>第一十九章 形式</h2><p>　　“你……你家？”她似乎有些诧异，可并没有激动或者生气的样子。</p>
 <p>　　“你家里，只有你一个人吗？”</p>
 <p>　　几个月前还有三个人。“对，现在只有咱们俩。”</p>
 <p>　　看她的样子似乎并不抗拒我把她带回我家，也对，狼的恐怖并不是那么容易就遗忘的，即使她再讨厌我，也不想再回到小屋了吧。</p>
@@ -1284,7 +1283,7 @@
 <p>　　“我想要，给我好不好？”虽然我开口问她，但手上的动作一点也没停歇，双手抱着她就要解开她的胸衣。</p>
 <p>　　“我不想。”她语气平淡说道。
 　　</p>
-<p>第二十章 不想 <br>　　“我不想。”</p>
+<h2 id="第二十章-不想"><a href="#第二十章-不想" class="headerlink" title="第二十章 不想"></a>第二十章 不想</h2><p>　　“我不想。”</p>
 <p>　　她这三个字像是一盆冰水直接泼在我心里，直接让我的欲火荡然无存。</p>
 <p>　　随之而来的是一阵怒气和怨气。</p>
 <p>　　你不想？之前在床上舒服的叫出声的时候怎么不和我说不想？计划着把我打晕假意奉承的时候怎么不说你不想？</p>
@@ -1326,7 +1325,7 @@
 <p>　　“真的，不要让我动粗好吗，我也忍得很辛苦了……况且以后我们也要一直在一起。”</p>
 <p>　　她似乎在思考什么，轻轻咬着嘴唇看着我的目光很是闪烁。</p>
 <p>　　慢慢的，她将内裤伸手褪到膝盖，用差点就听不到的小声说了一句：“轻点……”</p>
-<p>第二十一章 <br>　　听到她的同意，我高兴的快要蹦起来，这次不同以往，可能是第一次她真的主动同意和我亲热了。</p>
+<h2 id="第二十一章"><a href="#第二十一章" class="headerlink" title="第二十一章"></a>第二十一章</h2><p>　　听到她的同意，我高兴的快要蹦起来，这次不同以往，可能是第一次她真的主动同意和我亲热了。</p>
 <p>　　伸手扯掉她在膝盖上的小内裤，掀开碍事的短裙，我看到了一片稀疏黑色覆盖的凸起三角地带。微微用力将她的大腿向上掰开，慢慢贴近这片少女的羞处，这还是我第一次这么认真仔细观看她的私处，以往不是色急就是她反抗。</p>
 <p>　　再一撇她的表情，却发现她已经把枕头盖在脸上遮挡住，想必枕头下她的脸颊已经红透了。</p>
 <p>　　我慢慢靠近轻微露出的小洞口，闻到了一股湿热的味道，伸出舌尖轻轻舔在洞口上方的凸起嫩红小豆上，虽然没什么味道，但这一舔让她整个人像触电一样，身子带着整个阴部都颤动了。</p>
@@ -1361,8 +1360,7 @@
 <p>　　她看着我的眼神是那么纯净，我无法分辨其中蕴含的情绪，只是看着她的眼睛，几乎就让我醉醺醺的。</p>
 <p>　　我紧了紧抱着她的手，将她揽在我怀里，使她滑嫩柔软的身躯紧紧贴在我身上，而她也慢慢将手伸开抱住我的腰，几乎将整个身体都放开软倒在我怀里。</p>
 <p>　　就这样，我和她一丝不挂相拥，不再说话。过了不知多久，疲惫的浪潮涌来，抱着她带有淡淡香味的娇躯，我不知不觉进入梦乡。</p>
-<p>第二十二章 
-　　</p>
+<h2 id="第二十二章"><a href="#第二十二章" class="headerlink" title="第二十二章"></a>第二十二章</h2><p>　　</p>
 ]]></content>
       <categories>
         <category>文章转载</category>
