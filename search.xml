@@ -1485,4 +1485,23 @@
         <tag>阿里云盘</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Android使用控制台跳过青年大学习</title>
+    <url>/Android%E4%BD%BF%E7%94%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E8%B7%B3%E8%BF%87%E9%9D%92%E5%B9%B4%E5%A4%A7%E5%AD%A6%E4%B9%A0.html</url>
+    <content><![CDATA[<h1 id="青年大学习交流"><a href="#青年大学习交流" class="headerlink" title="青年大学习交流"></a>青年大学习交流</h1><p>分享一个安卓手机用控制台快速看完青年大学习的方法：</p>
+<h2 id="①"><a href="#①" class="headerlink" title="①"></a>①</h2><p>debugmm.qq.com/?forcex5=true<br><a href="http://debugtbs.qq.com/">http://debugtbs.qq.com</a><br><a href="http://debugx5.qq.com/">http://debugx5.qq.com</a><br>复制这三个网址到微信窗口，发给任意一个联系人（公众号也可）记得把“删除”这两个字删掉</p>
+<h2 id="②"><a href="#②" class="headerlink" title="②"></a>②</h2><p>分别点开这三个网址，前两个点进去等几秒退出来即可，点开第三个时按照图一勾选选项即可</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2021/05/07/UidWrGy2XtcsbKa.jpg" alt="1.jpg"></p>
+<h2 id="③"><a href="#③" class="headerlink" title="③"></a>③</h2><p>操作完成之后你会发现青年大学习看的时候右下角有一个小绿框，在进入青年大学习后点击小绿框会有图二界面，然后复制下列代码到输入框中点击OK即可document.getElementById(‘Bvideo’).currentTime=9000</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2021/05/07/3FuJ7oxv8ZICgzb.jpg" alt="2.jpg"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2021/05/07/n3wv7fRCdMY8kSB.jpg" alt="3.jpg"></p>
+<h2 id="④"><a href="#④" class="headerlink" title="④"></a>④</h2><p>骚操作之后你会发现你的青年大学习只剩下答题界面，<strong>答完即完成一次学习</strong></p>
+]]></content>
+      <categories>
+        <category>学习过程</category>
+      </categories>
+      <tags>
+        <tag>青年大学习</tag>
+      </tags>
+  </entry>
 </search>
