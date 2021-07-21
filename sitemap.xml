@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ranas.cn/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7.html</loc>
+    
+    <lastmod>2021-07-21</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.ranas.cn/%E5%B0%8F%E8%AF%B4%E6%8E%A8%E8%8D%90%EF%BC%88%E8%BD%AC%EF%BC%89.html</loc>
     
     <lastmod>2021-06-30</lastmod>
@@ -86,13 +93,6 @@
   </url>
   
   <url>
-    <loc>https://www.ranas.cn/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%A4%B1%E7%9C%A0%E9%97%B2%E8%81%8A.html</loc>
-    
-    <lastmod>2021-02-03</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.ranas.cn/categories/index.html</loc>
     
     <lastmod>2021-02-03</lastmod>
@@ -123,7 +123,7 @@
 
   <url>
     <loc>https://www.ranas.cn/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -131,77 +131,84 @@
   
   <url>
     <loc>https://www.ranas.cn/tags/calibre/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/heroku/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/DRM/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/%E5%9B%BE%E5%BA%8A%EF%BC%8Cgitee/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/%E6%BC%AB%E7%94%BB/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/%E6%9D%82%E9%A1%B9/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/%E9%98%B4%E9%97%B4/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/%E9%9D%92%E5%B9%B4%E5%A4%A7%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ranas.cn/tags/%E6%8F%90%E9%97%AE/</loc>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -210,21 +217,21 @@
   
   <url>
     <loc>https://www.ranas.cn/categories/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.ranas.cn/categories/%E6%96%87%E7%AB%A0%E8%BD%AC%E8%BD%BD/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
