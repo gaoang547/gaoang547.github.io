@@ -6,7 +6,7 @@
   <link href="https://www.ranas.cn/atom.xml" rel="self"/>
   
   <link href="https://www.ranas.cn/"/>
-  <updated>2022-03-26T03:26:58.380Z</updated>
+  <updated>2022-03-29T13:05:48.102Z</updated>
   <id>https://www.ranas.cn/</id>
   
   <author>
@@ -17,27 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>疫情有感</title>
-    <link href="https://www.ranas.cn/%E7%96%AB%E6%83%85%E6%9C%89%E6%84%9F.html"/>
-    <id>https://www.ranas.cn/%E7%96%AB%E6%83%85%E6%9C%89%E6%84%9F.html</id>
-    <published>2022-03-26T02:42:10.000Z</published>
-    <updated>2022-03-26T03:26:58.380Z</updated>
+    <title>EPUB如何加入音视频</title>
+    <link href="https://www.ranas.cn/EPUB%E5%A6%82%E4%BD%95%E5%8A%A0%E5%85%A5%E9%9F%B3%E8%A7%86%E9%A2%91.html"/>
+    <id>https://www.ranas.cn/EPUB%E5%A6%82%E4%BD%95%E5%8A%A0%E5%85%A5%E9%9F%B3%E8%A7%86%E9%A2%91.html</id>
+    <published>2022-03-29T13:05:05.000Z</published>
+    <updated>2022-03-29T13:05:48.102Z</updated>
     
-    <content type="html"><![CDATA[<p>从2019年至今，<strong>疫情</strong>给人们带来的影响慢慢从病痛方面转换到了<strong>精神</strong>方面，社会的病态和我家庭里的一部分问题慢慢放大。</p><p>我从几年之前就有意开始控制自己的情绪，淡化身边人对自己的影响，哄着身边的人，抱着和气的想法和每个人交流。</p><p>这样的坏处就是，当所有**<em>隔阂和不理解**</em>多到隐藏不下去的时候，冲突的爆发速度也快得令人难以想象。</p><p>就像俄罗斯和乌克兰一触即发的战事，我和家人之间也仿佛有一条看不见的引线，不用什么理由，哪怕一次简简单单的对话都有可能点燃。</p><p>哪怕我很长时间以来压抑自己，改变自己的性格，哗众取宠似的讨好，依旧改变不了任何事情。</p><p>隔离的短短几天时间，<strong>焦虑和愤怒</strong>几乎占据我所有的大脑，我竭尽全力维持着精神的清明，我原生家庭的问题在于父亲的莫名<strong>暴怒</strong>和母亲对所有事物的<strong>掌控欲</strong>，但她自己并不能把所有事情处理的很好，所以在讨论任何一件小事的时候他们之间都可能发生<strong>争吵</strong>。</p><p>我大多时候会冷眼看着，他们都是<strong>刚愎自用</strong>的且不会在意我的建议。</p><p>当然了，我也有问题，他们觉得我很懒……</p><p>我确实懒，懒得去纠正他们犯的很简单的错误，懒得争吵，懒得辩解，懒得回应他们的狂怒。</p><p>我是个喜欢<strong>安静到极致</strong>的人，喜欢安静到看不到小孩和瓜果，静到听不见巷子里的狗吠和鸟唱蝉鸣，我希望这些都与我无关。每天机械似的做完自己该做的事就把自己关进自己的空间，什么也不做，什么也不想。</p><p>我的精神方面大概是出了点<strong>问题</strong>，一年以前我就这么觉得，因为疫情原因在家的这段空置期让我更笃定了。我对现实世界的一切声音产生了厌恶，有了<strong>撕碎它们</strong>的想法。</p><p>不过这些并不能和我的父母说，在他们眼里我是没有抱怨的资格的。</p><p>我突然想到丁元英说的那句话：</p><blockquote><p>妈，如果你养儿就是为了防老，那就不要说母爱有多么的伟大了，您养来养去就是为了交换，等不等价还两说呢，碰到我这么个不孝顺的您就算赔了。</p></blockquote><p><strong>我产生了疑问：因为你是我养的，所以你没有资格说出自己的想法。这种观点，这种贯穿了中华上下几千年的思想，到底是历史沉淀下来的真知灼见，还是几千年都没能剔除的顽固糟粕。</strong></p><p>当我决定要孩子之前，我会问一下自己这个问题。</p><p>我会还问自己：到底是生孩子是想让孩子为自己做些什么；还是想为了自己的孩子（自己生命的延续）做些什么；亦或是讲究利益的等价交换。</p><p><strong>疫情在家无聊搓键盘写的一点无聊的东西</strong>，看见了一笑而过就好。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="EPUB中如何插入音-视频"><a href="#EPUB中如何插入音-视频" class="headerlink" title="EPUB中如何插入音/视频"></a>EPUB中如何插入音/视频</h1><h2 id="多看"><a href="#多看" class="headerlink" title="多看"></a>多看</h2><h3 id="音频"><a href="#音频" class="headerlink" title="音频"></a>音频</h3><ul><li>在HTML 5规范中，音频采用标准的audio标签，但需要扩展说明其占位图像，示例如下：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio class&#x3D;&quot;duokan-audio content-speaker&quot; placeholder&#x3D;&quot;speaker.jpg&quot; activestate&#x3D;&quot;active-speaker.jpg&quot; title&#x3D;&quot;军港之夜&quot;&gt;</span><br><span class="line">    &lt;source src&#x3D;&quot;song.mp3&quot; type&#x3D;&quot;audio&#x2F;mpeg&quot; &#x2F;&gt;</span><br><span class="line">&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure><p>duokan-audio为扩展标签，表明了该audio标签为多看扩展类型，placeholder用于表示占位图，activestate表示活动状态下的占位图，title表示标题名。</p><ul><li>一般情况下可以指定audio采用的CSS样式，在绘制占位图时需要遵循该样式，示例代码如下：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">audio.content-speaker &#123;</span><br><span class="line">    font-size: 16px;</span><br><span class="line">    width: 0.8em;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>audio的controls属性出现时，表明应用层需要显示控制栏，如果不出现，则无需显示控制栏。</p><h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3><ul><li>在HTML 5规范中，视频采用标准的video标签，示例如下：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;video class&#x3D;&quot;duokan-video content-matrix&quot; poster&#x3D;&quot;matrix.jpg&quot;&gt;</span><br><span class="line">    &lt;source src&#x3D;&quot;matrix.mp4&quot; type&#x3D;&quot;video&#x2F;mp4&quot; &#x2F;&gt;</span><br><span class="line">&lt;&#x2F;video&gt;</span><br></pre></td></tr></table></figure><p>duokan-video为扩展标签，表明了该video标签为多看扩展类型。</p><ul><li>一般情况下可以指定video采用的CSS样式，在绘制poster时需要遵循该样式，示例代码如下：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">video.content-matrix &#123;</span><br><span class="line">    width: 320px;</span><br><span class="line">    height: 240px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>video的controls属性禁止出现。</p><h2 id="掌阅"><a href="#掌阅" class="headerlink" title="掌阅"></a>掌阅</h2><h3 id="音频-1"><a href="#音频-1" class="headerlink" title="音频"></a>音频</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio class&#x3D;&quot;zhangyue-audio&quot; controls&#x3D;&quot;controls&quot; src&#x3D;&quot;..&#x2F;Audio&#x2F;Hit.mp3&quot; style&#x3D;&quot;width:20%;&quot; zy-cover-pic&#x3D;&quot;..&#x2F;Images&#x2F;Tigerbefore.png&quot;&gt;&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure><h3 id="视频-1"><a href="#视频-1" class="headerlink" title="视频"></a>视频</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;video class&#x3D;&quot;zhangyue-video&quot; src&#x3D;&quot;..&#x2F;Video&#x2F;sunup.mp4&quot; style&#x3D;&quot;width:100%;&quot; zy-cover-pic&#x3D;&quot;..&#x2F;Images&#x2F;sunup.jpg&quot;&gt;&lt;&#x2F;video&gt;</span><br></pre></td></tr></table></figure><h3 id="转载"><a href="#转载" class="headerlink" title="转载"></a>转载</h3><p>视频转载自知乎<a href="https://www.zhihu.com/question/48517175/answer/165147686">凤采</a>大佬的回答</p><p>&lt;video class=”zhangyue-video” src=”../Video/sunup.mp4” style=”width:100%;” zy-cover-pic=”</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;从2019年至今，&lt;strong&gt;疫情&lt;/strong&gt;给人们带来的影响慢慢从病痛方面转换到了&lt;strong&gt;精神&lt;/strong&gt;方面，社会的病态和我家庭里的一部分问题慢慢放大。&lt;/p&gt;
-&lt;p&gt;我从几年之前就有意开始控制自己的情绪，淡化身边人对自己的影响，哄着身边的人，抱</summary>
+    <summary type="html">&lt;h1 id=&quot;EPUB中如何插入音-视频&quot;&gt;&lt;a href=&quot;#EPUB中如何插入音-视频&quot; class=&quot;headerlink&quot; title=&quot;EPUB中如何插入音/视频&quot;&gt;&lt;/a&gt;EPUB中如何插入音/视频&lt;/h1&gt;&lt;h2 id=&quot;多看&quot;&gt;&lt;a href=&quot;#多看&quot; cla</summary>
       
     
     
     
-    <category term="疫情" scheme="https://www.ranas.cn/categories/%E7%96%AB%E6%83%85/"/>
+    <category term="EPUB" scheme="https://www.ranas.cn/categories/EPUB/"/>
     
     
-    <category term="感受" scheme="https://www.ranas.cn/tags/%E6%84%9F%E5%8F%97/"/>
+    <category term="电子书" scheme="https://www.ranas.cn/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
     
   </entry>
   
